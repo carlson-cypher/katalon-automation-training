@@ -4,6 +4,18 @@
    <name>TC03_Verify_Login_Modal</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>6db73e3b-2bc2-49d7-90df-a8734e717bbc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2fb29fa1-2b44-4b34-8335-36f8168c9911</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2fb29fa1-2b44-4b34-8335-36f8168c9911</id>
+      <masked>false</masked>
+      <name>MembersiteURL</name>
+   </variable>
 </TestCaseEntity>

@@ -4,6 +4,18 @@
    <name>TC01_Verify_Home_Page_Loads</name>
    <tag></tag>
    <comment></comment>
-   <recordOption>OTHER</recordOption>
    <testCaseGuid>53c7bd45-99cf-4379-95bf-fc91a898d50f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2687fc31-bf9d-49df-a45d-7ed478010ab3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2687fc31-bf9d-49df-a45d-7ed478010ab3</id>
+      <masked>false</masked>
+      <name>MembersiteURL</name>
+   </variable>
 </TestCaseEntity>

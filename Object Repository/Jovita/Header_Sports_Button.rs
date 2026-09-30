@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, '/desktop/sport') or contains(text(), 'Olahraga') or contains(text(), 'Sports')]</value>
+         <value>//a[@href='/desktop/sport']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a[href='/desktop/sport']</value>
       </entry>
       <entry>
          <key>BASIC</key>

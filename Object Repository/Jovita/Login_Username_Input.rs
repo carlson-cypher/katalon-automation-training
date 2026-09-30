@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='username' or @id='username' or contains(@placeholder, 'Pengguna') or contains(@placeholder, 'Username')] | //form//input[1]</value>
+         <value>//input[@name='username']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name='username']</value>
       </entry>
       <entry>
          <key>BASIC</key>

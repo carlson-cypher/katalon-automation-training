@@ -17,6 +17,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Jovita/TC01_Verify_Home_Page_Loads</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2687fc31-bf9d-49df-a45d-7ed478010ab3</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f3d8ddcb-619e-46d0-b652-eaf4c3f5200f</guid>
@@ -24,6 +30,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Jovita/TC02_Verify_Header_Navigation_Sports</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>462dc765-ab9d-480a-b2fa-850d325f7f89</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>77119cd5-2fe7-4d5f-be3f-548d7347f771</guid>
@@ -31,5 +43,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Jovita/TC03_Verify_Login_Modal</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2fb29fa1-2b44-4b34-8335-36f8168c9911</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
