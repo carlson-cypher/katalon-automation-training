@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC01_Verify_Home_Page_Loads</description>
+   <name>TC01_Verify_Home_Page_Loads</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>53c7bd45-99cf-4379-95bf-fc91a898d50f</testCaseGuid>
+</TestCaseEntity>
