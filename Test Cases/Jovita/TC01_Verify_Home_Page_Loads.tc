@@ -4,6 +4,7 @@
    <name>TC01_Verify_Home_Page_Loads</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>53c7bd45-99cf-4379-95bf-fc91a898d50f</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

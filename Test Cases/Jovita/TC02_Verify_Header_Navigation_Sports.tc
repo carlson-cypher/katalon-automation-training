@@ -4,6 +4,7 @@
    <name>TC02_Verify_Header_Navigation_Sports</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5029e08b-d419-4431-aef8-4dde88b58107</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

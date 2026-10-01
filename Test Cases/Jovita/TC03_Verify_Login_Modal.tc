@@ -4,6 +4,7 @@
    <name>TC03_Verify_Login_Modal</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>6db73e3b-2bc2-49d7-90df-a8734e717bbc</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

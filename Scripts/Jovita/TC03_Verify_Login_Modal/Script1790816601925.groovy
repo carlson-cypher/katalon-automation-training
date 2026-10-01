@@ -2,15 +2,15 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 String ErrMessage = ''
 boolean IsFailed = false
 
-String siteUrl = 'https://behemoth-w1n.nomlaterla.com/'
 
 WebUI.openBrowser('')
-WebUI.navigateToUrl(siteUrl)
+WebUI.navigateToUrl(GlobalVariable.MembersiteURL)
 WebUI.maximizeWindow()
 
 'Handle optional announcement / popup dialogs'
