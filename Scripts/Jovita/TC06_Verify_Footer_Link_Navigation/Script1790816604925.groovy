@@ -20,15 +20,30 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/General_
 	}
 }
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jovita/Home_Logo_Image'), 10, FailureHandling.OPTIONAL)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jovita/Footer_AboutUs_Link'), 10, FailureHandling.OPTIONAL)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/Home_Logo_Image'), 5, FailureHandling.OPTIONAL)) {
-	if (!WebUI.verifyElementVisible(findTestObject('Object Repository/Jovita/Home_Logo_Image'), FailureHandling.OPTIONAL)) {
-		ErrMessage += 'Home Page Logo element is present but not visible.\n'
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/Footer_AboutUs_Link'), 5, FailureHandling.OPTIONAL)) {
+	if (WebUI.verifyElementVisible(findTestObject('Object Repository/Jovita/Footer_AboutUs_Link'), FailureHandling.OPTIONAL)) {
+		WebUI.click(findTestObject('Object Repository/Jovita/Footer_AboutUs_Link'), FailureHandling.OPTIONAL)
+		
+		int waitCounter = 0
+		String currentUrl = WebUI.getUrl()
+		while (!currentUrl.contains('about') && waitCounter < 5) {
+			WebUI.sleep(1000)
+			currentUrl = WebUI.getUrl()
+			waitCounter++
+		}
+
+		if (!currentUrl.contains('about') && !currentUrl.contains('info')) {
+			ErrMessage += 'URL did not match Footer About Us page. Actual URL: ' + currentUrl + '\n'
+			IsFailed = true
+		}
+	} else {
+		ErrMessage += 'Footer About Us Link is not visible.\n'
 		IsFailed = true
 	}
 } else {
-	ErrMessage += 'Home Page Logo element is not present.\n'
+	ErrMessage += 'Footer About Us Link is not present.\n'
 	IsFailed = true
 }
 
@@ -37,5 +52,5 @@ WebUI.closeBrowser()
 if (IsFailed || ErrMessage != '') {
 	KeywordUtil.markFailed(ErrMessage)
 } else {
-	KeywordUtil.logInfo('Success: Home Page loaded and Logo is visible.')
+	KeywordUtil.logInfo('Success: Navigated to Footer link page successfully.')
 }

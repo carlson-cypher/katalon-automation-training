@@ -3,11 +3,15 @@
    <description>Home_Logo_Image</description>
    <name>Home_Logo_Image</name>
    <tag></tag>
-   <elementGuidId>9aa8f57d-8e83-49a7-be3d-b2fbd151af0e</elementGuidId>
+   <elementGuidId>fa2d2c16-95c2-4bd6-b369-2f828a0d7bd2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//a[contains(@href, '/desktop/home')]//img | //img[@alt='Nexus Logo']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt='Nexus Logo']</value>
       </entry>
       <entry>
          <key>BASIC</key>

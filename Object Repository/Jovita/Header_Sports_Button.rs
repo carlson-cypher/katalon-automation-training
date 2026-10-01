@@ -3,7 +3,7 @@
    <description>Header_Sports_Button</description>
    <name>Header_Sports_Button</name>
    <tag></tag>
-   <elementGuidId>78f773d8-b8ef-4eea-8aaa-0ccf4c0a4331</elementGuidId>
+   <elementGuidId>fa2d2c16-95c2-4bd6-b369-2f828a0d7bd2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

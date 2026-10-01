@@ -8,7 +8,6 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 String ErrMessage = ''
 boolean IsFailed = false
 
-
 WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.MembersiteURL)
 WebUI.maximizeWindow()
@@ -23,11 +22,11 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/General_
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jovita/Login_Button'), 10, FailureHandling.OPTIONAL)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/Login_Button'), 10, FailureHandling.OPTIONAL)) {
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/Login_Button'), 5, FailureHandling.OPTIONAL)) {
 	if (WebUI.verifyElementVisible(findTestObject('Object Repository/Jovita/Login_Button'), FailureHandling.OPTIONAL)) {
 		WebUI.click(findTestObject('Object Repository/Jovita/Login_Button'), FailureHandling.OPTIONAL)
 		
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Jovita/Login_Username_Input'), 15, FailureHandling.OPTIONAL)
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Jovita/Login_Username_Input'), 10, FailureHandling.OPTIONAL)
 		
 		if (!WebUI.verifyElementVisible(findTestObject('Object Repository/Jovita/Login_Username_Input'), FailureHandling.OPTIONAL)) {
 			ErrMessage += 'Username input field is not visible in Login modal.\n'

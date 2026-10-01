@@ -1,5 +1,5 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import org.openqa.selenium.Keys as Keys
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
@@ -20,15 +20,21 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/General_
 	}
 }
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jovita/Home_Logo_Image'), 10, FailureHandling.OPTIONAL)
+'Call reusable login step with empty credentials'
+WebUI.callTestCase(findTestCase('Test Cases/Jovita/TC00_Reusable_Login_Step'), [('username') : '', ('password') : ''], FailureHandling.OPTIONAL)
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/Home_Logo_Image'), 5, FailureHandling.OPTIONAL)) {
-	if (!WebUI.verifyElementVisible(findTestObject('Object Repository/Jovita/Home_Logo_Image'), FailureHandling.OPTIONAL)) {
-		ErrMessage += 'Home Page Logo element is present but not visible.\n'
-		IsFailed = true
-	}
-} else {
-	ErrMessage += 'Home Page Logo element is not present.\n'
+WebUI.sleep(1000)
+
+boolean usernameErr = WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/Login_ErrorMessage_UsernameRequired'), 5, FailureHandling.OPTIONAL)
+boolean passwordErr = WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/Login_ErrorMessage_PasswordRequired'), 5, FailureHandling.OPTIONAL)
+
+if (!usernameErr) {
+	ErrMessage += 'Username required error message was not displayed.\n'
+	IsFailed = true
+}
+
+if (!passwordErr) {
+	ErrMessage += 'Password required error message was not displayed.\n'
 	IsFailed = true
 }
 
@@ -37,5 +43,5 @@ WebUI.closeBrowser()
 if (IsFailed || ErrMessage != '') {
 	KeywordUtil.markFailed(ErrMessage)
 } else {
-	KeywordUtil.logInfo('Success: Home Page loaded and Logo is visible.')
+	KeywordUtil.logInfo('Success: Empty login validation error messages verified successfully via reusable login step.')
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC06_Verify_Footer_Link_Navigation</description>
+   <name>TC06_Verify_Footer_Link_Navigation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a5786227-3b0f-4e63-add7-3e4471ecceaa</testCaseGuid>
+</TestCaseEntity>
