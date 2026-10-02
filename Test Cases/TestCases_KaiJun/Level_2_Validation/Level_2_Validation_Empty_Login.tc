@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Level_2_Validation_Empty_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b04fae13-83bf-45fd-8b08-6ce2f4ca9ecc</testCaseGuid>
+</TestCaseEntity>
