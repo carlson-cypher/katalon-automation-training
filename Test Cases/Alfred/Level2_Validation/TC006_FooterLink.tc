@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for the redirection is correct when clicking on the link in the Footer</description>
+   <name>TC006_FooterLink</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ae92729-82f7-4f04-881d-21d81c828b76</testCaseGuid>
+</TestCaseEntity>

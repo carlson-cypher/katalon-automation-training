@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for verifying Error Validation Message shows when no input username and password</description>
+   <name>TC004_EmptyLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a48496d0-855c-4cea-a060-cf2e804b591b</testCaseGuid>
+</TestCaseEntity>
