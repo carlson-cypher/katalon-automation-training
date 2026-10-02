@@ -30,10 +30,18 @@ WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Popup_OK_
 
 WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Sport_Header'))
 
-String currentUrl = WebUI.getUrl()
-String expectedUrl = 'https://behemoth-w1n.nomlaterla.com/*'
-
 WebUI.waitForPageLoad(20)
-WebUI.verifyMatch(currentUrl, expectedUrl, true)
+
+// Wait up to 10 seconds for the URL to change
+int waited = 0
+while (!WebUI.getUrl().contains('/desktop/sport') && waited < 10) {
+    WebUI.delay(1)
+    waited++
+}
+
+// Read the URL AFTER waiting
+String currentUrl = WebUI.getUrl()
+
+WebUI.verifyMatch(currentUrl, '.*/desktop/sport.*', true)
 
 WebUI.closeBrowser()
