@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for Login Form is shown after clicking on Login button</description>
+   <name>TC003_LoginModal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>857c7190-061a-4ba2-bcfa-ddd24a761a8b</testCaseGuid>
+</TestCaseEntity>
