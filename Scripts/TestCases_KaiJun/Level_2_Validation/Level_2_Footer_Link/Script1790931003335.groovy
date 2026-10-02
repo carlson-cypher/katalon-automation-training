@@ -32,7 +32,7 @@ WebUI.click(findTestObject('ObjectRepository_KaiJun/Pop_Up/Homepage_Popup_Ok_but
 //------------------ Homepage popup checking---------------------//
 
 //Press Footer Platform - Promotion
-WebUI.click(findTestObject('Object Repository/Page_testing only/Platform_Promotion'))
+WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Footer/Platform_Promotion'))
 
 WebUI.delay(3)
 
