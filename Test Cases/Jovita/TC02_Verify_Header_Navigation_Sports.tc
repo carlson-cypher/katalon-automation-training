@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC02_Verify_Header_Navigation_Sports</description>
+   <name>TC02_Verify_Header_Navigation_Sports</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5029e08b-d419-4431-aef8-4dde88b58107</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>462dc765-ab9d-480a-b2fa-850d325f7f89</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>462dc765-ab9d-480a-b2fa-850d325f7f89</id>
+      <masked>false</masked>
+      <name>MembersiteURL</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC07_Verify_Language_Switch</description>
+   <name>TC07_Verify_Language_Switch</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9b69b16e-9c8f-4141-8f22-db050829c56f</testCaseGuid>
+</TestCaseEntity>
