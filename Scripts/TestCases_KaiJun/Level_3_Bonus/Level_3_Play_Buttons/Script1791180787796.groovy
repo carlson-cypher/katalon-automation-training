@@ -23,23 +23,19 @@ WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
 CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
 
-//Press Login button visible
-WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Button'))
+WebUI.click(findTestObject('Object Repository/Page_testing only/Popular_Games_Text'))
 
-WebUI.delay(2)
+//click the Play button of a game in Popular Games
+CustomKeywords.'common.PlayButtonKeywords.verifyLoginPopupOnPlay'(
+	findTestObject('Object Repository/Page_testing only/Popular_Games_Play_Button'),
+	findTestObject('Object Repository/Page_testing only/Please_Login_First_Panel'))
 
-//Verify Login form is it visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form'))
+WebUI.click(findTestObject('Object Repository/Page_testing only/Popular_Video _Slots_Text'))
 
-WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Username_Field'),'wronguser123')
-
-WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Password_Field'),'wrongpassword123')
-
-// Click Login
-WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Button'))
-
-// Verify Invalid username or password display
-WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Invalid_Username_Password'))
+//click the Play button of a game in Popular Video Slots
+CustomKeywords.'common.PlayButtonKeywords.verifyLoginPopupOnPlay'(
+	findTestObject('Object Repository/Page_testing only/Popular_Video_Slots_Play_Button'),
+	findTestObject('Object Repository/Page_testing only/Please_Login_First_Panel'))
 
 // Close browser
 WebUI.closeBrowser()

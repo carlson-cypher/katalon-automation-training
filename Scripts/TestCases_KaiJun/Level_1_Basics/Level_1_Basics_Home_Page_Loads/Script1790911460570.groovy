@@ -23,14 +23,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
-//------------------ Homepage popup checking---------------------//
-if (WebUI.verifyElementVisible(
-	findTestObject('ObjectRepository_KaiJun/Pop_Up/Homepage_Popup'),
-	FailureHandling.OPTIONAL)) {
-
-WebUI.click(findTestObject('ObjectRepository_KaiJun/Pop_Up/Homepage_Popup_Ok_button'))
-}
-//------------------ Homepage popup checking---------------------//
+CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
 
 // Verify Logo visible
 WebUI.verifyElementVisible(findTestObject('ObjectRepository_KaiJun/Logo/Web_Logo'))

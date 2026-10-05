@@ -17,29 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.homeUrl)
-
-CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
 
 //Press Login button visible
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Button'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form'), 10)
 
-WebUI.delay(2)
-
-//Verify Login form is it visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form'))
-
-WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Username_Field'),'wronguser123')
-
-WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Password_Field'),'wrongpassword123')
+// Fill in the fields
+WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Username_Field'), username)
+WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Password_Field'), password)
 
 // Click Login
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Button'))
+WebUI.waitForPageLoad(10)
 
-// Verify Invalid username or password display
-WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Invalid_Username_Password'))
-
-// Close browser
-WebUI.closeBrowser()

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>html_root</name>
+   <tag></tag>
+   <elementGuidId>be2ed980-3efd-40da-91a2-fd404bf2186e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>/html</name>
+      <type>Main</type>
+      <value>/html</value>
+      <webElementGuid>7c4d9d48-b455-4817-8e74-4472bbaaad93</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

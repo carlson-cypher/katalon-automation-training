@@ -23,23 +23,30 @@ WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
 CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
 
-//Press Login button visible
-WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Button'))
 
-WebUI.delay(2)
+//--------------Switch to Indonesia Language---------------------
+//Press Language button
+WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Language_Options/Language_Options'))
 
-//Verify Login form is it visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form'))
+// Select ID language 
+WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Language_Options/Button_Bahasa_Indonesia'))
+WebUI.waitForPageLoad(10)
 
-WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Username_Field'),'wronguser123')
+// Verify the page language matches the selected language
+String langId = WebUI.getAttribute(findTestObject('Object Repository/ObjectRepository_KaiJun/BHM_site/html_root'), 'lang')
+WebUI.verifyEqual(langId.startsWith('id'), true)
 
-WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Password_Field'),'wrongpassword123')
+//--------------Switch to English Language---------------------
+//Press Language button
+WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Language_Options/Language_Options'))
 
-// Click Login
-WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Button'))
+// Select EN language
+WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Language_Options/Button_English'))
+WebUI.waitForPageLoad(10)
 
-// Verify Invalid username or password display
-WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Invalid_Username_Password'))
+// Verify the page language matches the selected language
+String langEng = WebUI.getAttribute(findTestObject('Object Repository/ObjectRepository_KaiJun/BHM_site/html_root'), 'lang')
+WebUI.verifyEqual(langEng.startsWith('en'), true)
 
 // Close browser
 WebUI.closeBrowser()

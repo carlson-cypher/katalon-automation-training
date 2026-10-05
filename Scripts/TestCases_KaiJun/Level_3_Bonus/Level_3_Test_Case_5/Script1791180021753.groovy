@@ -23,20 +23,13 @@ WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
 CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
 
-//Press Login button visible
-WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Button'))
+// Valid Login credential
+WebUI.callTestCase(
+	findTestCase('Test Cases/TestCases_KaiJun/Common/Reusable_Login_Step'),
+	[('username'): 'wrongusername123', ('password'): 'wrongpassword123'],
+	FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
-//Verify Login form is it visible
-WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form'))
-
-WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Username_Field'),'wronguser123')
-
-WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Password_Field'),'wrongpassword123')
-
-// Click Login
-WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Button'))
+WebUI.delay(3)
 
 // Verify Invalid username or password display
 WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Invalid_Username_Password'))

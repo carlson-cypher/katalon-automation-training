@@ -22,15 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
 
-//------------------ Homepage popup checking---------------------//
-if (WebUI.verifyElementVisible(
-	findTestObject('ObjectRepository_KaiJun/Pop_Up/Homepage_Popup'),
-	FailureHandling.OPTIONAL)) {
-
-// Press ok button to close popup
-WebUI.click(findTestObject('ObjectRepository_KaiJun/Pop_Up/Homepage_Popup_Ok_button'))
-}
-//------------------ Homepage popup checking---------------------//
+CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
 
 //Find sport header button
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Header_Navigation/Header_Navigation_Sports'))
