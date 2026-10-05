@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC08_Verify_Play_Button_Popular_Games</description>
+   <name>TC08_Verify_Play_Button_Popular_Games</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9564f1c9-288b-4ab2-ac1c-1fcfdc714cbf</testCaseGuid>
+</TestCaseEntity>
