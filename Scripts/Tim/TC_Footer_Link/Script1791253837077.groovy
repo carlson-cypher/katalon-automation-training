@@ -17,18 +17,29 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory   // add this at the top with the other imports
 
 WebUI.openBrowser('https://behemoth-w1n.nomlaterla.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementVisible(findTestObject('Tim/Home/img_Logo'))
+WebUI.click(findTestObject('Tim/Home/btn_Close_Home_Popup'))
 
-WebUI.executeJavaScript('document.querySelector("a[href=\'/desktop/sport\']").click();', ['', 'document.querySelector("a[href=\'/desktop/sport\']").click();'])
+WebUI.scrollToElement(findTestObject('Tim/Home/footer_Slots'), 10)
 
-WebUI.click(findTestObject('Tim/Home/btn_Login_Form'))
+WebUI.click(findTestObject('Object Repository/Tim/Home/footer_Slots'))
 
-WebUI.verifyElementPresent(findTestObject('Tim/Login/txt_Username'), 0)
 
-WebUI.focus(findTestObject('Tim/Login/txt_Username'))
+WebUI.delay(3)
+
+def driver = DriverFactory.getWebDriver()
+println('Windows open: ' + driver.getWindowHandles().size())
+println('href of footer link: ' + WebUI.getAttribute(findTestObject('Tim/Home/footer_Slots'), 'href'))
+println('URL right now: ' + WebUI.getUrl())
+
+// If "Windows open" is 2, switch to the new tab:
+// WebUI.switchToWindowIndex(1)
+
+WebUI.verifyMatch(WebUI.getUrl(), '.*slots.*', true, FailureHandling.STOP_ON_FAILURE)
+
 

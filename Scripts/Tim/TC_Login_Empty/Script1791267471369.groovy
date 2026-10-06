@@ -22,13 +22,17 @@ WebUI.openBrowser('https://behemoth-w1n.nomlaterla.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.verifyElementVisible(findTestObject('Tim/Home/img_Logo'))
-
-WebUI.executeJavaScript('document.querySelector("a[href=\'/desktop/sport\']").click();', ['', 'document.querySelector("a[href=\'/desktop/sport\']").click();'])
+WebUI.click(findTestObject('Tim/Home/btn_Close_Home_Popup'))
 
 WebUI.click(findTestObject('Tim/Home/btn_Login_Form'))
 
-WebUI.verifyElementPresent(findTestObject('Tim/Login/txt_Username'), 0)
+WebUI.waitForElementVisible(findTestObject('Tim/Home/btn_Login_Form'), 5)
 
-WebUI.focus(findTestObject('Tim/Login/txt_Username'))
+WebUI.click(findTestObject('Tim/Login/btn_submit'))
+
+WebUI.verifyElementVisible(findTestObject('Tim/Login/lbl_Username_EM'))
+
+WebUI.verifyElementVisible(findTestObject('Tim/Login/lbl_Password_EM'))
+
+WebUI.closeBrowser()
 

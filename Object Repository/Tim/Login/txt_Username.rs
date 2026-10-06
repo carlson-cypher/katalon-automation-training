@@ -6,12 +6,12 @@
    <elementGuidId>d4e14ebf-45dc-43f1-8177-03789873db62</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='username']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;username&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>49b5ca42-233a-4e2f-b536-874849d53290</webElementGuid>
+      <webElementGuid>1d929dbb-4985-4f37-ab9a-3dba6671ab28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value> form-control text-secondary-1 px-3 py-2 font-medium text-xs md:text-sm border border-secondary-6 w-full bg-secondary-9 h-8.5  </value>
-      <webElementGuid>1d53090f-964b-4bfa-b9c0-6f3ccc21ab7e</webElementGuid>
+      <webElementGuid>4d45d9b1-be21-494d-8235-e75e38b27c2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Username</value>
-      <webElementGuid>a287e9f9-ebc5-40e6-881f-1e1f176a5676</webElementGuid>
+      <webElementGuid>32d04865-cecc-47b8-918c-44a2d2fff975</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>16245d01-6d0b-476c-8825-15a6b17a466a</webElementGuid>
+      <webElementGuid>4ab66105-655a-42d7-aa58-d897bae8bae9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>834d7c1d-5cdd-46b0-a01b-fdb6b315dc51</webElementGuid>
+      <webElementGuid>f3edf15f-0a16-4746-817c-bc5c3080d96f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[@class=&quot;group flex justify-center w-full block&quot;]/div[@class=&quot;z-30 sm:z-30 text-white&quot;]/div[@class=&quot;fixed inset-0 z-30 overflow-y-auto p-4 md:px-2&quot;]/div[@class=&quot;min-h-full flex items-center justify-center&quot;]/div[@class=&quot;relative flex flex-col-reverse md:flex-row justify-center rounded-lg w-full basis-full md:max-w-[967px] md:h-[623px] rounded-lg overflow-hidden -translate-y-[25%] transition-transform duration-300 ease-out group-data-[state=open]:translate-y-0&quot;]/div[@class=&quot;auth-modal-container flex flex-col items-center w-full h-full px-4 md:px-7 pb-8 pt-8 gap-y-4 overflow-auto relative flex-1&quot;]/form[@class=&quot;flex flex-col justify-center items-center w-full max-w-lg gap-y-4 pt-3&quot;]/div[@class=&quot;flex flex-col justify-center items-center gap-3.75 w-full&quot;]/div[@class=&quot;flex flex-col justify-start items-start w-full&quot;]/div[@class=&quot;relative w-full flex flex-row gap-x-2&quot;]/div[@class=&quot;relative w-full&quot;]/input[@class=&quot;form-control text-secondary-1 px-3 py-2 font-medium text-xs md:text-sm border border-secondary-6 w-full bg-secondary-9 h-8.5&quot;]</value>
-      <webElementGuid>ae157437-247d-4a61-9aea-e6ff227fa859</webElementGuid>
+      <webElementGuid>5ac08f92-41cb-4b6b-a754-83901d8fd9ca</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='username']</value>
-      <webElementGuid>7bc6f885-8f83-4860-a497-f8de8fc700da</webElementGuid>
+      <webElementGuid>544b4d2d-03ed-4fd5-90e3-408c253f3e40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/input</value>
-      <webElementGuid>51036e56-f534-4e10-ad1e-c06fadcf8e99</webElementGuid>
+      <webElementGuid>4db5adbd-941a-40e2-a58a-c220c5dd8a9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Username' and @type = 'text' and @name = 'username']</value>
-      <webElementGuid>89497bb8-90e2-45ea-8436-c784e0a7b377</webElementGuid>
+      <webElementGuid>afe8c171-1bf7-4ad7-9cb9-d179aef9d728</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
