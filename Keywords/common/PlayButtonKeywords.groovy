@@ -28,10 +28,10 @@ public class PlayButtonKeywords {
         WebUI.verifyTextPresent('Please login first', false)
 		
 		if (WebUI.verifyElementVisible(
-			findTestObject('Object Repository/Page_testing only/Please_Login_First_Panel'),
+			findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel'),
 			FailureHandling.OPTIONAL)) {
 		
-		WebUI.click(findTestObject('Object Repository/Page_testing only/Please_Login_First_Panel_Ok_Button'))
+		WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel_Ok_Button'))
 		}
 				
 			}

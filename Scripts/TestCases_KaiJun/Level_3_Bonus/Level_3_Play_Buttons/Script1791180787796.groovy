@@ -23,19 +23,19 @@ WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
 CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
 
-WebUI.click(findTestObject('Object Repository/Page_testing only/Popular_Games_Text'))
+WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Games/Popular_Games_Text'))
 
 //click the Play button of a game in Popular Games
 CustomKeywords.'common.PlayButtonKeywords.verifyLoginPopupOnPlay'(
-	findTestObject('Object Repository/Page_testing only/Popular_Games_Play_Button'),
-	findTestObject('Object Repository/Page_testing only/Please_Login_First_Panel'))
+	findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Games/Popular_Games_Play_Button'),
+	findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel'))
 
-WebUI.click(findTestObject('Object Repository/Page_testing only/Popular_Video _Slots_Text'))
+WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Video_Slots/Popular_Video _Slots_Text'))
 
 //click the Play button of a game in Popular Video Slots
 CustomKeywords.'common.PlayButtonKeywords.verifyLoginPopupOnPlay'(
-	findTestObject('Object Repository/Page_testing only/Popular_Video_Slots_Play_Button'),
-	findTestObject('Object Repository/Page_testing only/Please_Login_First_Panel'))
+	findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Video_Slots/Popular_Video_Slots_Play_Button'),
+	findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel'))
 
 // Close browser
 WebUI.closeBrowser()
