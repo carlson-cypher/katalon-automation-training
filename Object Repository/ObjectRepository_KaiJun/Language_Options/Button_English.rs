@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_English</name>
+   <tag></tag>
+   <elementGuidId>6680b7a9-cac6-4a9c-97a4-d442eb000dcc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Main di Telegram'])[1]/following::button[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;ENGLISH ENGLISH&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>399c29a8-ba34-44f7-8c2d-318a475f67a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex cursor-pointer items-center gap-3 w-full px-4 py-2.5 text-left transition-colors border-b border-secondary-6 last:border-b-0 text-secondary-1 hover:bg-secondary-6</value>
+      <webElementGuid>4760242b-5c39-4179-b932-4b6205e8e5ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ENGLISHENGLISH</value>
+      <webElementGuid>1b1b363d-59fb-40f5-844a-dc5f6e900279</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[1]/header[@class=&quot;w-full bg-primary-8&quot;]/div[@class=&quot;topbar-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;topbar-left-container px-3&quot;]/div[@class=&quot;topbar-left-section&quot;]/div[@class=&quot;topbar-item language-selector-container&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;absolute left-0 top-full mt-1 min-w-max bg-secondary-7 z-60 rounded-lg overflow-hidden&quot;]/button[@class=&quot;flex cursor-pointer items-center gap-3 w-full px-4 py-2.5 text-left transition-colors border-b border-secondary-6 last:border-b-0 text-secondary-1 hover:bg-secondary-6&quot;]</value>
+      <webElementGuid>c43127c3-9c21-4413-a84c-22e3c2f177c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main di Telegram'])[1]/following::button[3]</value>
+      <webElementGuid>1e44cdb6-692b-496e-9197-8323975379ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/button</value>
+      <webElementGuid>50e7253f-4e5d-4c6b-a3e8-4d8753590437</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'ENGLISHENGLISH' or . = 'ENGLISHENGLISH')]</value>
+      <webElementGuid>d2e492b7-66c0-425c-9132-b7b3125f23d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
