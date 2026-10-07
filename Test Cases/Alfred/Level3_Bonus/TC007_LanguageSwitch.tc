@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for language switching from Indo to Eng, then switch back to Indo</description>
+   <name>TC007_LanguageSwitch</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>109b4650-4337-4a73-9ab7-d610ca3683ea</testCaseGuid>
+</TestCaseEntity>

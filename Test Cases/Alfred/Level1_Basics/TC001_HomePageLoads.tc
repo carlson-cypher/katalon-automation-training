@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for Home Page Loads</description>
+   <name>TC001_HomePageLoads</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f8f0a357-1383-4844-a148-b17a125aa8ff</testCaseGuid>
+</TestCaseEntity>

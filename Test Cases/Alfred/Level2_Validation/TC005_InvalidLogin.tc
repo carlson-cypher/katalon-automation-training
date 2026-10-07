@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for the Invalid Error Validation Message is shown when giving wrong username and password</description>
+   <name>TC005_InvalidLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>79603dd5-2ab5-4109-811a-5e4879d673c2</testCaseGuid>
+</TestCaseEntity>
