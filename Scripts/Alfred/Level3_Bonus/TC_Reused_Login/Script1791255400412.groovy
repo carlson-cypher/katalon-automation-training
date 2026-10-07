@@ -19,36 +19,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-
 WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://behemoth-w1n.nomlaterla.com/')
-
-WebUI.waitForPageLoad(10, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Popup_OK_Button'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Login_Button'))
-
-//verify username and password field are showing
-WebUI.waitForElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Field'), 10, FailureHandling.STOP_ON_FAILURE)
-WebUI.waitForElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Password_Field'), 10, FailureHandling.STOP_ON_FAILURE)
-
-//enter invalid username and password
-WebUI.setText(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Field'), 'wrongtest1')
-WebUI.setText(findTestObject('Object Repository/Alfred/Page_testing only/Login_Password_Field'), 'test123')
-
-WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/LoginForm_Login_Submit_Button'))
-
 WebUI.waitForPageLoad(10)
+WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Popup_OK_Button'))
+WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Login_Button'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Field'), 10)
 
-//verify Invalid Error Message is shown
-WebUI.verifyElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Invalid_Error'))
-
-//continue on Level 3_Bonus
-WebUI.callTestCase(findTestCase('Test Cases/Alfred/Level3_Bonus/TC_Reused_Login'), [('username'):'wrongtest2', ('password'):'test123'], FailureHandling.STOP_ON_FAILURE)
-
-//continue on error verification
-WebUI.verifyElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Invalid_Error'))
-
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Field'), username)
+WebUI.setText(findTestObject('Object Repository/Alfred/Page_testing only/Login_Password_Field'), password)
+WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/LoginForm_Login_Submit_Button'))

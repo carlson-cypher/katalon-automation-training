@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test by using existing test case instead of repeating the same steps</description>
+   <name>TC_Reused_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>730bfdcb-8e56-4217-bb8f-15967cc77be0</testCaseGuid>
+</TestCaseEntity>

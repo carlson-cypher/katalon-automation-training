@@ -28,25 +28,18 @@ WebUI.waitForPageLoad(10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Popup_OK_Button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Login_Button'))
+//change language from Indo to Eng
+WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Language_Switch_Button'))
+WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/English_Button'))
+WebUI.waitForPageLoad(20)
 
-//verify username and password field are showing
-WebUI.waitForElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Field'), 10, FailureHandling.STOP_ON_FAILURE)
-WebUI.waitForElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Password_Field'), 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Alfred/Page_testing only/Olahraga_Indo_Text'), 'SPORTS')
 
-//click Login button in Login Form with empty username and password
-WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/LoginForm_Login_Submit_Button'), FailureHandling.STOP_ON_FAILURE)
+//change language from Eng to Indo
+WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Language_Switch_Button'))
+WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Indo_Button'))
+WebUI.waitForPageLoad(20)
 
-//verify error message is shown
-WebUI.verifyElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Required_Error'), FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Password_Required_Error'), FailureHandling.STOP_ON_FAILURE)
-
-//continue on Level 3_Bonus
-WebUI.callTestCase(findTestCase('Test Cases/Alfred/Level3_Bonus/TC_Reused_Login'), [('username'):'', ('password'):''], FailureHandling.STOP_ON_FAILURE)
-
-//continue on error verification
-WebUI.waitForElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Required_Error'), 10)
-WebUI.verifyElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Required_Error'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Password_Required_Error'))
+WebUI.verifyElementText(findTestObject('Object Repository/Alfred/Page_testing only/Olahraga_Indo_Text'), 'OLAHRAGA')
 
 WebUI.closeBrowser()
