@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>footer_Slots</name>
+   <tag></tag>
+   <elementGuidId>2010cf41-2cb9-4fbe-bf40-df4b7f7f9e20</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Slots')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=contentinfo >> internal:role=link[name=&quot;Slots&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>85114a64-2de4-4109-a66c-04cd6872d5c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-secondary-18 hover:text-primary-1 text-xs md:text-sm font-medium transition-colors cursor-pointer</value>
+      <webElementGuid>f03e5503-3252-41a0-9a18-8e1947cad63a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/desktop/slots</value>
+      <webElementGuid>2317dce6-8057-4872-b37f-59deaf8701da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Slots</value>
+      <webElementGuid>4537771c-38c0-4b25-b980-c11c56da576c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/footer[@class=&quot;bg-secondary-9 text-secondary-4 md:border-t-2 border-primary-7 py-5 text-sm leading-5.25&quot;]/div[@class=&quot;container mt-[15px]&quot;]/div[@class=&quot;border-y border-dotted border-secondary-5 py-3.75 md:border-t&quot;]/div[@class=&quot;grid grid-cols-2 gap-6.5 md:flex md:flex-row md:justify-between md:pr-10&quot;]/div[3]/ul[@class=&quot;space-y-2.5 pt-2.5 leading-5&quot;]/li[3]/a[@class=&quot;text-secondary-18 hover:text-primary-1 text-xs md:text-sm font-medium transition-colors cursor-pointer&quot;]</value>
+      <webElementGuid>52ba4d60-552c-4213-9261-c40b24f72e30</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Slots')]</value>
+      <webElementGuid>88473184-ab44-4261-aeaa-b38e748b5af2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sports'])[3]/following::a[1]</value>
+      <webElementGuid>33a1ef62-1160-4c46-af61-2c6865b3a399</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hot Games'])[3]/following::a[2]</value>
+      <webElementGuid>cd5f1408-68df-4afd-b194-3fa90eb510bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Live Casino'])[3]/preceding::a[1]</value>
+      <webElementGuid>f61fd131-264b-4798-8b55-a86ae0868ccf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Race'])[3]/preceding::a[2]</value>
+      <webElementGuid>d4b13fd2-41cb-48eb-9e74-da0098063cdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/desktop/slots')])[3]</value>
+      <webElementGuid>f9a62658-c1df-41ea-8fc8-06445cb7a55c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ul/li[3]/a</value>
+      <webElementGuid>efb6e51b-917f-48b8-bef0-7c48b74d6821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/desktop/slots' and (text() = 'Slots' or . = 'Slots')]</value>
+      <webElementGuid>db741b5c-fd9a-44a4-8262-f46138acfa95</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Popular_Video_Slots</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ad4650f0-10d8-4187-bba9-23b041b7e962</testCaseGuid>
+</TestCaseEntity>
