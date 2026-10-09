@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_Popular_Video_Slots</name>
+   <tag></tag>
+   <elementGuidId>7039d429-e1e4-4c9e-8f71-abadf4053a79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@class,'free-play') and contains(@href,'vs20rnriches')]/following-sibling::a[contains(@class,'play-now')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(5) > .game-wrapper > .link-container</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>475a07f5-839f-419b-aee9-74d69628c255</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>link-container</value>
+      <webElementGuid>d0f7d120-4700-4b4e-8d54-6985b9a58b03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TRYPlay</value>
+      <webElementGuid>0e670dee-db53-4ab8-8d3c-ee5a44642a4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-7&quot;)/div[@class=&quot;popular-game-list&quot;]/div[@class=&quot;game-item&quot;]/div[@class=&quot;game-wrapper relative&quot;]/div[@class=&quot;link-container&quot;]</value>
+      <webElementGuid>318b38bc-3b00-44cc-b247-b6c547f9f252</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tab-7']/div/div[5]/div/div[2]</value>
+      <webElementGuid>9c1ab217-dec4-4d60-b301-0419393a5ff8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRY'])[4]/following::div[5]</value>
+      <webElementGuid>3f4e4ed1-4662-4e89-8868-85fc096364ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRY'])[3]/following::div[10]</value>
+      <webElementGuid>34c1b6bb-b099-42ba-b4b3-7c1780d00339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TRY'])[6]/preceding::div[3]</value>
+      <webElementGuid>2f6564da-4976-4cee-b6bb-a53e85e310a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div[5]/div/div[2]</value>
+      <webElementGuid>b46c4850-d7ff-4eea-b530-70b6014b4fd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'TRYPlay' or . = 'TRYPlay')]</value>
+      <webElementGuid>04e8b85c-11aa-4d77-9e1e-f3dacb3c4136</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

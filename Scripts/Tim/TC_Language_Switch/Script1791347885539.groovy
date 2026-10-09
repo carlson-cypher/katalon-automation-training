@@ -22,13 +22,27 @@ WebUI.openBrowser('https://behemoth-w1n.nomlaterla.com/')
 
 WebUI.maximizeWindow()
 
+WebUI.navigateToUrl('https://behemoth-w1n.nomlaterla.com/')
+
 WebUI.click(findTestObject('Tim/Home/btn_Close_Home_Popup'))
 
-WebUI.callTestCase(findTestCase('Tim/TC_Login_Reusable'), [('username') : '', ('password') : ''], FailureHandling.STOP_ON_FAILURE)
+// Switch back to English
+WebUI.click(findTestObject('Tim/Home/button_Switch_Language'))
 
-WebUI.verifyElementVisible(findTestObject('Tim/Login/lbl_Username_EM'))
+// Switch back to English
+WebUI.click(findTestObject('Tim/Home/button_Indo'))
 
-WebUI.verifyElementVisible(findTestObject('Tim/Login/lbl_Password_EM'))
+// Verify it's English again
+WebUI.verifyElementText(findTestObject('Tim/Home/btn_Masuk'), 'MASUK')
+
+// Switch back to English
+WebUI.click(findTestObject('Tim/Home/button_Switch_Language'))
+
+// Switch back to English
+WebUI.click(findTestObject('Tim/Home/button_Eng'))
+
+// Verify it's English again
+WebUI.verifyElementText(findTestObject('Tim/Login/btn_Login'), 'LOGIN')
 
 WebUI.closeBrowser()
 

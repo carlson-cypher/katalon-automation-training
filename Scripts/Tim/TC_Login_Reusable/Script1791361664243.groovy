@@ -17,18 +17,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-WebUI.openBrowser('https://behemoth-w1n.nomlaterla.com/')
+// 1. Open the login form
+WebUI.waitForElementClickable(findTestObject('Object Repository/Tim/Home/btn_Login_Form'), 10)
+WebUI.click(findTestObject('Object Repository/Tim/Home/btn_Login_Form'))
 
-WebUI.maximizeWindow()
+// 2. Fill in the fields
+WebUI.waitForElementVisible(findTestObject('Object Repository/Tim/Login/txt_Username'), 10)
+WebUI.setText(findTestObject('Object Repository/Tim/Login/txt_Username'), username)
+WebUI.setText(findTestObject('Object Repository/Tim/Login/txt_Password'), password)
 
-WebUI.click(findTestObject('Tim/Home/btn_Close_Home_Popup'))
-
-WebUI.callTestCase(findTestCase('Tim/TC_Login_Reusable'), [('username') : '', ('password') : ''], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementVisible(findTestObject('Tim/Login/lbl_Username_EM'))
-
-WebUI.verifyElementVisible(findTestObject('Tim/Login/lbl_Password_EM'))
-
-WebUI.closeBrowser()
-
+// 3. Click Login
+WebUI.click(findTestObject('Object Repository/Tim/Login/btn_Submit'))

@@ -28,11 +28,13 @@ WebUI.click(findTestObject('Tim/Home/btn_Login_Form'))
 
 WebUI.waitForElementVisible(findTestObject('Tim/Home/btn_Login_Form'), 5)
 
+WebUI.setText(findTestObject('Tim/Login/txt_Username'), 'hehe')
+
+WebUI.setText(findTestObject('Tim/Login/txt_Password'), '123')
+
 WebUI.click(findTestObject('Tim/Login/btn_submit'))
 
-WebUI.verifyElementVisible(findTestObject('Tim/Login/lbl_Username_EM'))
-
-WebUI.verifyElementVisible(findTestObject('Tim/Login/lbl_Password_EM'))
+WebUI.verifyElementText(findTestObject('Tim/Login/lbl_Invalid_Login'), 'Invalid username or password')
 
 WebUI.closeBrowser()
 

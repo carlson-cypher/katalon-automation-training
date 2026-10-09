@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>card_Popular_Games</name>
+   <tag></tag>
+   <elementGuidId>18e64612-f12f-4f81-ba48-ce1c1dde1ec0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[contains(@class,'link-container')])[1]/..</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^PLAYMahjong Legend0$/ >> div >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>00034d4f-7ac7-4b98-b06c-5c57c76f97de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>link-container absolute inset-0 flex flex-col items-center justify-center opacity-0 transition-opacity duration-200 group-hover:opacity-100</value>
+      <webElementGuid>bb3930ca-46ff-48c4-b67b-8da1ea70341b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PLAY</value>
+      <webElementGuid>acc877f6-89e4-4b2e-a314-845730a2be38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[@class=&quot;flex flex-1 overflow-hidden&quot;]/main[@class=&quot;flex-1 overflow-auto bg-background&quot;]/div[@class=&quot;flex flex-col w-full h-auto&quot;]/div[@class=&quot;container&quot;]/section[@class=&quot;mb-3.75&quot;]/div[@class=&quot;border border-primary-4 p-2.5&quot;]/div[1]/div[@class=&quot;grid auto-cols-[calc((100%-30px)/6.5)] gap-x-[6px] gap-y-[10px] grid-flow-col overflow-x-auto native-scrollbar pb-0.75&quot;]/div[@class=&quot;group&quot;]/div[@class=&quot;relative overflow-hidden bg-[#141414] p-1.25&quot;]/div[@class=&quot;link-container absolute inset-0 flex flex-col items-center justify-center opacity-0 transition-opacity duration-200 group-hover:opacity-100&quot;]</value>
+      <webElementGuid>2f1c44f8-25bb-4206-8abb-3925abbfd6de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mahjong Ways'])[1]/following::div[6]</value>
+      <webElementGuid>28eabdce-0973-44d0-993d-9a7e35abe025</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Treasures of Aztec'])[1]/following::div[12]</value>
+      <webElementGuid>df105200-1904-4480-8d77-eb9302211a23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mahjong Legend'])[1]/preceding::div[1]</value>
+      <webElementGuid>39231088-9786-4551-ae7c-80f5214e016b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Poker Win'])[1]/preceding::div[6]</value>
+      <webElementGuid>87802c27-1cf5-4535-a74e-1e8f3a2b65c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[3]</value>
+      <webElementGuid>3e7ad56b-8f6b-4ea9-889d-a29014631e53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PLAY' or . = 'PLAY')]</value>
+      <webElementGuid>b32218ef-3f1c-4076-8e15-f684c70c14ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
