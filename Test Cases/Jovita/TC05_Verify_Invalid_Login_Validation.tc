@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC05_Verify_Invalid_Login_Validation</description>
+   <name>TC05_Verify_Invalid_Login_Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>17632003-b4b1-4d68-a7b2-4542f01c573e</testCaseGuid>
+</TestCaseEntity>

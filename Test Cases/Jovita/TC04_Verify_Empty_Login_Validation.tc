@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC04_Verify_Empty_Login_Validation</description>
+   <name>TC04_Verify_Empty_Login_Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c1773d9-f826-4009-a485-2fdf7a998257</testCaseGuid>
+</TestCaseEntity>

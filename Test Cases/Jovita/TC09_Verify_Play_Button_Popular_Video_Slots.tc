@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC09_Verify_Play_Button_Popular_Video_Slots</description>
+   <name>TC09_Verify_Play_Button_Popular_Video_Slots</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca9687e9-ca82-4e6a-8e49-45445a56a1f7</testCaseGuid>
+</TestCaseEntity>
