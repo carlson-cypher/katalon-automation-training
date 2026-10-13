@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Opens the browser once for Jovita_Training_Suite. Run this first when running a test case on its own.</description>
+   <name>Setup_Open_Browser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5288966f-89bf-458b-abbe-dcc6f31cf180</testCaseGuid>
+</TestCaseEntity>

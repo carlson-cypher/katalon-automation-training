@@ -39,9 +39,10 @@ def setUp() {
 /**
  * Clean test suites environment.
  */
-@TearDown(skipped = true) // Please change skipped to be false to activate this method.
+@TearDown(skipped = false)
 def tearDown() {
-	// Put your code here.
+	// The browser is opened once by Setup_Open_Browser; close it after the last test case
+	WebUI.closeBrowser()
 }
 
 /**

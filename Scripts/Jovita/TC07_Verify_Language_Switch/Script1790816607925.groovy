@@ -2,8 +2,9 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import jovita.JovitaConfig as JovitaConfig
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+CustomKeywords.'jovita.CommonKeyword.goToHomePage'()
 
 String ErrMessage = ''
 boolean IsFailed = false
@@ -15,30 +16,15 @@ TestObject optionEnglish = findTestObject('Object Repository/Jovita/Header_Langu
 TestObject loginTextEnglish = findTestObject('Object Repository/Jovita/Login_Button_Text_English')
 TestObject loginTextIndonesian = findTestObject('Object Repository/Jovita/Login_Button_Text_Indonesian')
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl(JovitaConfig.MEMBERSITE_URL)
-WebUI.maximizeWindow()
-
-'Handle optional announcement / popup dialogs'
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jovita/General_Button_Popup_Close'), 2, FailureHandling.OPTIONAL)
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/General_Button_Popup_Close'), 1, FailureHandling.OPTIONAL)) {
-	if (WebUI.verifyElementVisible(findTestObject('Object Repository/Jovita/General_Button_Popup_Close'), FailureHandling.OPTIONAL)) {
-		WebUI.click(findTestObject('Object Repository/Jovita/General_Button_Popup_Close'), FailureHandling.OPTIONAL)
-	}
-}
-
 'Precondition: page starts in English, otherwise the switch cannot be proven'
 if (!WebUI.waitForElementVisible(loginTextEnglish, 10, FailureHandling.OPTIONAL)) {
 	ErrMessage += 'Precondition failed: page did not start in English (Login button "Login" not found).\n'
 	IsFailed = true
-} else if (!WebUI.waitForElementClickable(languageDropdown, 10, FailureHandling.OPTIONAL)) {
-	ErrMessage += 'Header Language Dropdown is not present or not clickable.\n'
-	IsFailed = true
 } else {
 	'Switch to Indonesian'
-	WebUI.click(languageDropdown, FailureHandling.OPTIONAL)
+	WebUI.click(languageDropdown, FailureHandling.STOP_ON_FAILURE)
 	WebUI.waitForElementClickable(optionIndonesian, 5, FailureHandling.OPTIONAL)
-	WebUI.click(optionIndonesian, FailureHandling.OPTIONAL)
+	WebUI.click(optionIndonesian, FailureHandling.STOP_ON_FAILURE)
 
 	'Verify the page language changed: Login button now reads "Masuk"'
 	if (!WebUI.waitForElementVisible(loginTextIndonesian, 10, FailureHandling.OPTIONAL)) {
@@ -46,10 +32,10 @@ if (!WebUI.waitForElementVisible(loginTextEnglish, 10, FailureHandling.OPTIONAL)
 		IsFailed = true
 	}
 
-	'Switch back to English'
-	WebUI.click(languageDropdown, FailureHandling.OPTIONAL)
+	'Switch back to English (also leaves the shared browser in English for the next test cases)'
+	WebUI.click(languageDropdown, FailureHandling.STOP_ON_FAILURE)
 	WebUI.waitForElementClickable(optionEnglish, 5, FailureHandling.OPTIONAL)
-	WebUI.click(optionEnglish, FailureHandling.OPTIONAL)
+	WebUI.click(optionEnglish, FailureHandling.STOP_ON_FAILURE)
 
 	'Verify the page language changed back: Login button reads "Login" again'
 	if (!WebUI.waitForElementVisible(loginTextEnglish, 10, FailureHandling.OPTIONAL)) {
@@ -57,8 +43,6 @@ if (!WebUI.waitForElementVisible(loginTextEnglish, 10, FailureHandling.OPTIONAL)
 		IsFailed = true
 	}
 }
-
-WebUI.closeBrowser()
 
 if (IsFailed || ErrMessage != '') {
 	KeywordUtil.markFailed(ErrMessage)

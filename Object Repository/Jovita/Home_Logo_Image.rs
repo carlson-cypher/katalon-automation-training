@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, '/desktop/home')]//img | //img[@alt='Nexus Logo']</value>
+         <value>//img[@alt='Nexus Logo']</value>
       </entry>
       <entry>
          <key>CSS</key>

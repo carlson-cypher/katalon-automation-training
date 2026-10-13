@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[.//input[@name='username']]//*[normalize-space(text())='Username is required.']</value>
+         <value>//input[@name='username']/ancestor::div[contains(@class, 'flex-col')][1]//*[normalize-space(text())='Username is required.']</value>
       </entry>
       <entry>
          <key>CSS</key>

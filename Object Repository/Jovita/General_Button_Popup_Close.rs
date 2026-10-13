@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[text()='OK' or normalize-space(text())='OK'] | //button[contains(@class, 'close') or contains(@class, 'btn-close') or contains(@aria-label, 'Close')] | //div[contains(@class, 'modal') or contains(@class, 'popup')]//button</value>
+         <value>//div[contains(@class, 'fixed') and contains(@class, 'inset-0')]//div[contains(@class, 'border-t')]/div[normalize-space(.)='OK']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.cursor-pointer, button.close, .modal .close</value>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>

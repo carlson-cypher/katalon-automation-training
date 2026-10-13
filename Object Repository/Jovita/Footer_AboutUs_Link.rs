@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@href='/desktop/info/aboutw1n' or contains(text(), 'Tentang kami')]</value>
+         <value>//a[@href='/desktop/info/aboutw1n']</value>
       </entry>
       <entry>
          <key>CSS</key>

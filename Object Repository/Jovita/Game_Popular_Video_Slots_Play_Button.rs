@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@class, 'popular-games')]//div[@id='tab-7']//a[contains(@class, 'play-now')]</value>
+         <value>//div[contains(@class, 'section-title')][span[normalize-space(.)='Popular Video Slots']]/ancestor::div[contains(@class, 'popular-games')][1]//div[contains(@class, 'tab-pane')]//a[contains(@class, 'play-now')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.popular-games #tab-7 a.play-now</value>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>

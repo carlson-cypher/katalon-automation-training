@@ -1,56 +1,40 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import jovita.JovitaConfig as JovitaConfig
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import jovita.JovitaConfig as JovitaConfig
+
+CustomKeywords.'jovita.CommonKeyword.goToHomePage'()
 
 String ErrMessage = ''
 boolean IsFailed = false
+TestObject link = findTestObject('Object Repository/Jovita/Footer_AboutUs_Link')
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl(JovitaConfig.MEMBERSITE_URL)
-WebUI.maximizeWindow()
+if (!WebUI.waitForElementClickable(link, 10, FailureHandling.OPTIONAL)) {
+	ErrMessage += 'Footer About Us Link is not present or not clickable.\n'
+	IsFailed = true
+} else {
+	WebUI.click(link, FailureHandling.STOP_ON_FAILURE)
 
-'Handle optional announcement / popup dialogs'
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jovita/General_Button_Popup_Close'), 2, FailureHandling.OPTIONAL)
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/General_Button_Popup_Close'), 1, FailureHandling.OPTIONAL)) {
-	if (WebUI.verifyElementVisible(findTestObject('Object Repository/Jovita/General_Button_Popup_Close'), FailureHandling.OPTIONAL)) {
-		WebUI.click(findTestObject('Object Repository/Jovita/General_Button_Popup_Close'), FailureHandling.OPTIONAL)
+	'Poll the URL until it matches the exact expected URL (max 10 s)'
+	String expectedUrl = JovitaConfig.ABOUT_US_URL
+	String currentUrl = WebUI.getUrl()
+	int waitCounter = 0
+	while (currentUrl != expectedUrl && waitCounter < 10) {
+		WebUI.delay(1)
+		currentUrl = WebUI.getUrl()
+		waitCounter++
 	}
-}
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jovita/Footer_AboutUs_Link'), 10, FailureHandling.OPTIONAL)
-
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/Footer_AboutUs_Link'), 5, FailureHandling.OPTIONAL)) {
-	if (WebUI.verifyElementVisible(findTestObject('Object Repository/Jovita/Footer_AboutUs_Link'), FailureHandling.OPTIONAL)) {
-		WebUI.click(findTestObject('Object Repository/Jovita/Footer_AboutUs_Link'), FailureHandling.OPTIONAL)
-		
-		int waitCounter = 0
-		String currentUrl = WebUI.getUrl()
-		while (!currentUrl.contains('/desktop/info/aboutw1n') && waitCounter < 5) {
-			WebUI.sleep(1000)
-			currentUrl = WebUI.getUrl()
-			waitCounter++
-		}
-
-		if (!currentUrl.contains('/desktop/info/aboutw1n')) {
-			ErrMessage += 'URL did not match Footer About Us page. Actual URL: ' + currentUrl + '\n'
-			IsFailed = true
-		}
-	} else {
-		ErrMessage += 'Footer About Us Link is not visible.\n'
+	if (currentUrl != expectedUrl) {
+		ErrMessage += 'URL did not match Footer About Us page. Expected: ' + expectedUrl + ' Actual: ' + currentUrl + '\n'
 		IsFailed = true
 	}
-} else {
-	ErrMessage += 'Footer About Us Link is not present.\n'
-	IsFailed = true
 }
-
-WebUI.closeBrowser()
 
 if (IsFailed || ErrMessage != '') {
 	KeywordUtil.markFailed(ErrMessage)
 } else {
-	KeywordUtil.logInfo('Success: Navigated to Footer link page successfully.')
+	KeywordUtil.logInfo('Success: Navigated to Footer About Us page successfully.')
 }
