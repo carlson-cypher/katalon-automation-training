@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit'] | //form//button[contains(text(), 'Masuk') or contains(text(), 'Login')] | //button[contains(@class, 'btn-primary')]</value>
+         <value>//form[.//input[@name='username']]//button[@type='submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button[type='submit'], form button.btn-primary</value>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>

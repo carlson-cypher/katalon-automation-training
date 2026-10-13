@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(), 'Kata sandi harus diisi') or contains(text(), 'Password') or contains(@class, 'text-red') or contains(@class, 'error')]</value>
+         <value>//form[.//input[@name='username']]//*[normalize-space(text())='Password is required.']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.text-red-500, .error-message</value>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>

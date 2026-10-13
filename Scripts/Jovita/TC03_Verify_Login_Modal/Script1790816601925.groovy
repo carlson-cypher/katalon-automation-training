@@ -2,14 +2,14 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
+import jovita.JovitaConfig as JovitaConfig
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 String ErrMessage = ''
 boolean IsFailed = false
 
 WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.MembersiteURL)
+WebUI.navigateToUrl(JovitaConfig.MEMBERSITE_URL)
 WebUI.maximizeWindow()
 
 'Handle optional announcement / popup dialogs'

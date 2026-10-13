@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@class, 'play-now')]</value>
+         <value>//section[.//*[normalize-space(text())='Popular Games']]//a[contains(@class, 'play-now')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.play-now</value>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>

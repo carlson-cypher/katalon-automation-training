@@ -2,14 +2,14 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
+import jovita.JovitaConfig as JovitaConfig
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 String ErrMessage = ''
 boolean IsFailed = false
 
 WebUI.openBrowser('')
-WebUI.navigateToUrl(GlobalVariable.MembersiteURL)
+WebUI.navigateToUrl(JovitaConfig.MEMBERSITE_URL)
 WebUI.maximizeWindow()
 
 'Handle optional announcement / popup dialogs'
@@ -28,13 +28,13 @@ if (WebUI.verifyElementPresent(findTestObject('Object Repository/Jovita/Footer_A
 		
 		int waitCounter = 0
 		String currentUrl = WebUI.getUrl()
-		while (!currentUrl.contains('about') && waitCounter < 5) {
+		while (!currentUrl.contains('/desktop/info/aboutw1n') && waitCounter < 5) {
 			WebUI.sleep(1000)
 			currentUrl = WebUI.getUrl()
 			waitCounter++
 		}
 
-		if (!currentUrl.contains('about') && !currentUrl.contains('info')) {
+		if (!currentUrl.contains('/desktop/info/aboutw1n')) {
 			ErrMessage += 'URL did not match Footer About Us page. Actual URL: ' + currentUrl + '\n'
 			IsFailed = true
 		}

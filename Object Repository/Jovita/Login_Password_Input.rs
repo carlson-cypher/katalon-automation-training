@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='password' or @type='password']</value>
+         <value>//form//input[@name='password']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name='password']</value>
+         <value>form input[name='password']</value>
       </entry>
       <entry>
          <key>BASIC</key>

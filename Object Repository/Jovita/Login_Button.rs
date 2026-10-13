@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, '#modal-login') or contains(text(), 'Masuk') or contains(text(), 'Login')]</value>
+         <value>//a[contains(@class, 'login-button')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.login-button, a[href='#modal-login']</value>
+         <value>a.login-button</value>
       </entry>
       <entry>
          <key>BASIC</key>

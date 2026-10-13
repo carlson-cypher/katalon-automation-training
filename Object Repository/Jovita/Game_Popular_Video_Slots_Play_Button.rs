@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='tab-7']//div[contains(@class, 'popular-game-list')]//div[contains(@class, 'game-item')][1]//a[contains(@class, 'play-now')] | //div[@id='tab-7']//a[contains(@class, 'play-now')]</value>
+         <value>//div[contains(@class, 'popular-games')]//div[@id='tab-7']//a[contains(@class, 'play-now')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#tab-7 div.popular-game-list div.game-item a.play-now</value>
+         <value>div.popular-games #tab-7 a.play-now</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(), 'Nama pengguna atau kata sandi salah') or contains(text(), 'Gagal masuk') or contains(text(), 'Invalid') or contains(@class, 'toast') or contains(@class, 'error')]</value>
+         <value>//div[normalize-space(text())='Invalid username or password']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.toast-error, .error-message</value>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
