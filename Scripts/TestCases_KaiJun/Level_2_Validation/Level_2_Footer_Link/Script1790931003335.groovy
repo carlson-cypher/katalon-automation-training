@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
-CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
+CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 
 //Press Footer Platform - Promotion
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Footer/Platform_Promotion'))

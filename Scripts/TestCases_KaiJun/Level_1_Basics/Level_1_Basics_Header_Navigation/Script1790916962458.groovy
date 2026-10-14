@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
 
-CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
+CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 
 //Find sport header button
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Header_Navigation/Header_Navigation_Sports'))

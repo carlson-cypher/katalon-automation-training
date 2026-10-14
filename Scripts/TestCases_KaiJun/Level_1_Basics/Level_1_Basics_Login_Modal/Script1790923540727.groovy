@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
-CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
+CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 
 //Press Login button visible
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Button'))

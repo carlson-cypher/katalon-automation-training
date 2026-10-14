@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Live Draw Sun, 04-Oct-2026 07:00:00'])[1]/following::span[1]</value>
+         <value>//h2[normalize-space(.)='Live Draw']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>fb111e67-9d11-4e6e-8c22-b4cd6f6a3257</webElementGuid>
+      <webElementGuid>ccdf6056-c8d3-4b73-80ef-c236575d339d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Popular Games</value>
-      <webElementGuid>4a8e3db6-26a6-458f-8a1b-9a1527779d03</webElementGuid>
+      <webElementGuid>f5e3c545-9cd7-4a39-8524-6d98ea31090a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,62 +44,62 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[@class=&quot;flex flex-1 overflow-hidden&quot;]/main[@class=&quot;flex-1 overflow-auto bg-background&quot;]/div[@class=&quot;flex flex-col w-full h-auto&quot;]/div[@class=&quot;container&quot;]/section[@class=&quot;mb-3.75&quot;]/div[@class=&quot;flex justify-start&quot;]/div[@class=&quot;bg-primary-4 py-1.25 text-[14px] uppercase tracking-wide text-white text-center px-12.5&quot;]/span[1]</value>
-      <webElementGuid>6ba25e38-ffa1-4ee5-b496-dd9deb2e0ee4</webElementGuid>
+      <webElementGuid>c2804c99-138c-40c3-b90b-b06e949928da</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Live Draw Sun, 04-Oct-2026 07:00:00'])[1]/following::span[1]</value>
-      <webElementGuid>845bfe0e-bdc1-4a4d-a8c3-75a6fae6f7a1</webElementGuid>
+      <value></value>
+      <webElementGuid>fd4b2c75-871e-4c90-a0c3-cfdbbef3dc2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nex4D Pools Night'])[1]/following::span[5]</value>
-      <webElementGuid>6790aec2-bbbc-4ac5-8219-a6607fa19b8e</webElementGuid>
+      <value></value>
+      <webElementGuid>b234b176-6921-4570-8abe-3e54c204e48e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MUSCLE FORTUNE CAT'])[1]/preceding::span[1]</value>
-      <webElementGuid>1b2b46bb-2f1e-4a42-ba5e-bcfac08f45f0</webElementGuid>
+      <value></value>
+      <webElementGuid>51e6aea5-ee50-4f11-85f0-acbfcaba6a85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wukong - Black Scatter'])[1]/preceding::span[2]</value>
-      <webElementGuid>cb2a61cb-8983-4038-b848-108893f25416</webElementGuid>
+      <value></value>
+      <webElementGuid>b428a98a-b526-4d0e-a7d4-03406516333b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Popular Games']/parent::*</value>
-      <webElementGuid>b300937b-1802-4a22-a785-e2ebba462bd3</webElementGuid>
+      <value></value>
+      <webElementGuid>e2d04f70-cdde-40dc-a069-411a69af6853</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//section/div/div/span</value>
-      <webElementGuid>d362cb8a-88c8-455d-87a3-0041e02e88ea</webElementGuid>
+      <value></value>
+      <webElementGuid>24835032-9950-40b2-82d2-8fe34581583d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Popular Games' or . = 'Popular Games')]</value>
-      <webElementGuid>88a919ea-3657-456f-9a03-64afe8fc8df3</webElementGuid>
+      <value></value>
+      <webElementGuid>8fb55fa7-e2ea-4661-9775-6892778199a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

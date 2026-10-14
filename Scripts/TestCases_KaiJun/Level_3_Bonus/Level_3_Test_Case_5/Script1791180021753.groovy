@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
-CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
+CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 
 // Valid Login credential
 WebUI.callTestCase(

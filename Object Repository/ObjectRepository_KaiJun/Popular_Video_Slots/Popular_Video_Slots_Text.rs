@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Popular_Video _Slots_Text</name>
+   <name>Popular_Video_Slots_Text</name>
    <tag></tag>
    <elementGuidId>2c284ff5-5bc7-4aa4-98e2-dde407f5ebe3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Starlight Wins'])[1]/following::span[2]</value>
+         <value>//h2[normalize-space(.)='Popular Video Slots']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>80fbf361-6542-49b6-bf62-4a136df26b2b</webElementGuid>
+      <webElementGuid>837a36da-28b5-4409-aaa0-8eac40d72e2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Popular Video Slots</value>
-      <webElementGuid>850e6bb5-03ff-4dc0-8060-bfb3c212eb74</webElementGuid>
+      <webElementGuid>222f87d8-e58d-4235-8a1e-e6836f0bf9fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[@class=&quot;flex flex-1 overflow-hidden&quot;]/main[@class=&quot;flex-1 overflow-auto bg-background&quot;]/div[@class=&quot;flex flex-col w-full h-auto&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;popular-games&quot;]/div[1]/div[@class=&quot;section-title&quot;]/span[1]</value>
-      <webElementGuid>35a9b5f0-e745-4585-8959-40266f40c401</webElementGuid>
+      <webElementGuid>6618d8d4-0a05-45e0-b460-5378e5cacf61</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Starlight Wins'])[1]/following::span[2]</value>
-      <webElementGuid>1b7666e8-781f-4817-bad6-60f9dfec2a05</webElementGuid>
+      <webElementGuid>ecbcfaa4-ca70-4e39-876b-ab3e6de70361</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Roma Legacy'])[1]/following::span[3]</value>
-      <webElementGuid>d6c44445-7139-4bd2-b492-af8ca4b0f61e</webElementGuid>
+      <webElementGuid>0d42c134-969e-47c6-a982-517e12c3897e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Winner Slot Machine'])[1]/preceding::span[1]</value>
-      <webElementGuid>db578971-a177-4a85-b5bc-bb440704c8d6</webElementGuid>
+      <webElementGuid>fc21fe8f-4232-475c-8bd6-5ded771ca36d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='dummyte****5'])[1]/preceding::span[2]</value>
-      <webElementGuid>be819546-6155-4e4f-97a2-d4633fc2d286</webElementGuid>
+      <webElementGuid>11679586-60f6-4a16-a3f4-415272946718</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Popular Video Slots']/parent::*</value>
-      <webElementGuid>b97717d4-57a3-4314-a7f9-e99700066035</webElementGuid>
+      <webElementGuid>9cb46f2f-c280-48cd-b7e2-55b2171bb5e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/span</value>
-      <webElementGuid>280d26ee-b45f-4f0b-95da-0c23461917f7</webElementGuid>
+      <webElementGuid>bf00030f-c3b9-4ec1-9ea9-b4c9671da484</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Popular Video Slots' or . = 'Popular Video Slots')]</value>
-      <webElementGuid>3410e264-6245-43cb-989d-f75dfbf979e2</webElementGuid>
+      <webElementGuid>3d559cb1-da59-4a58-9425-86c73de0ce52</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

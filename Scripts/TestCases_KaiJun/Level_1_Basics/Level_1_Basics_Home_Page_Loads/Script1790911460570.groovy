@@ -23,7 +23,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
-CustomKeywords.'common.PopupKeywords.closeHomepagePopup'()
+CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 
 // Verify Logo visible
 WebUI.verifyElementVisible(findTestObject('ObjectRepository_KaiJun/Logo/Web_Logo'))

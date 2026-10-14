@@ -1,4 +1,4 @@
-package common
+package kaijun
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -21,6 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class PlayButtonKeywords {
+	
 	
 	def verifyLoginPopupOnPlay(TestObject playButton, TestObject popup) {
         WebUI.click(playButton)
