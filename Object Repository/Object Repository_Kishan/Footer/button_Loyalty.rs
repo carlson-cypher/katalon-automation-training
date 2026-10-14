@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Loyalty</name>
+   <tag></tag>
+   <elementGuidId>c4da60eb-e8a9-464d-a6ef-2b40a2947fd3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion'])[2]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Loyalty&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a1c7a091-4b29-41e5-9903-1c8b111aa343</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-secondary-18 hover:text-primary-1 text-xs md:text-sm font-medium transition-colors cursor-pointer</value>
+      <webElementGuid>c25c82b0-6124-48ba-8d79-4181e0be6511</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Loyalty</value>
+      <webElementGuid>d9f3b073-46a0-408f-b308-a244f8cb4d1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/footer[@class=&quot;bg-secondary-9 text-secondary-4 md:border-t-2 border-primary-7 py-5 text-sm leading-5.25&quot;]/div[@class=&quot;container mt-[15px]&quot;]/div[@class=&quot;border-y border-dotted border-secondary-5 py-3.75 md:border-t&quot;]/div[@class=&quot;grid grid-cols-2 gap-6.5 md:flex md:flex-row md:justify-between md:pr-10&quot;]/div[2]/ul[@class=&quot;space-y-2.5 pt-2.5 leading-5&quot;]/li[2]/button[@class=&quot;text-secondary-18 hover:text-primary-1 text-xs md:text-sm font-medium transition-colors cursor-pointer&quot;]</value>
+      <webElementGuid>211f55dd-12bf-4a79-9c66-645e6fd92f12</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion'])[2]/following::button[1]</value>
+      <webElementGuid>505f1d95-240e-499f-aa41-19b83f0f3698</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Platform'])[1]/following::button[1]</value>
+      <webElementGuid>76d795fe-95b3-4e49-8744-b074e94a2923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Referral'])[1]/preceding::button[1]</value>
+      <webElementGuid>083abc32-9d9b-41e2-a4f9-e5fdcaae2a87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[1]/preceding::button[2]</value>
+      <webElementGuid>32ab4a4a-fccf-41c0-8036-27187df1d8ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Loyalty']/parent::*</value>
+      <webElementGuid>2bb9b0b7-8844-4156-9934-ec0a28ca0a93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/button</value>
+      <webElementGuid>9eff1ea6-0fe8-45de-8764-ce955b1987b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Loyalty' or . = 'Loyalty')]</value>
+      <webElementGuid>a5ff1efc-98ca-4669-bf18-c435aea062db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

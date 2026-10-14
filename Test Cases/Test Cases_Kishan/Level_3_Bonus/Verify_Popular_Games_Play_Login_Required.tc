@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_Popular_Games_Play_Login_Required</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>063413a9-e932-4b79-953d-02bd3720b573</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_Empty_Login_Validation_Message</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>36f4ffd9-03be-41ec-8da1-5e5df46a766f</testCaseGuid>
+</TestCaseEntity>

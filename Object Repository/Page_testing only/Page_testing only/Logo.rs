@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Logo</name>
+   <tag></tag>
+   <elementGuidId>9720556d-a1f6-4498-896b-fda6375b2281</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Nexus Logo']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Nexus Logo&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e6f46138-8f30-40a1-8d6c-4588a07626e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Nexus Logo</value>
+      <webElementGuid>a37dcd5b-961e-47be-a691-2b44e368235f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-14.75 w-auto max-w-none object-contain my-3.75</value>
+      <webElementGuid>440a0170-8b34-45bf-9947-69a9b820375d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://api2-w1n.imgnxa.com/images//akl1z34rtme/logo_c872b3c7-8e46-427b-8820-5b116e469219_1791433200320.png</value>
+      <webElementGuid>be568a21-5021-437b-9dcd-8248374b414c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[1]/nav[@class=&quot;relative w-full site-header bg-primary-6&quot;]/div[@class=&quot;container flex items-start h-full gap-x-6&quot;]/div[@class=&quot;shrink-0 flex items-start justify-center cursor-pointer h-full w-65.25 bg-no-repeat bg-contain&quot;]/a[@class=&quot;w-full&quot;]/img[@class=&quot;h-14.75 w-auto max-w-none object-contain my-3.75&quot;]</value>
+      <webElementGuid>f26002a8-672f-45ef-968a-4e59aab3fd9e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Nexus Logo']</value>
+      <webElementGuid>3b4937fa-2d5d-40d1-a02e-853daf06dda8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/div/div/a/img</value>
+      <webElementGuid>f0b9a8f5-7c7b-4ba5-ad02-40a9c87fa736</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Nexus Logo' and @src = 'https://api2-w1n.imgnxa.com/images//akl1z34rtme/logo_c872b3c7-8e46-427b-8820-5b116e469219_1791433200320.png']</value>
+      <webElementGuid>c26c78f9-0c72-4309-8216-1e92c0d8f6e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
