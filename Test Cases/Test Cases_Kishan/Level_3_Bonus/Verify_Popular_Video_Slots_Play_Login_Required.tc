@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_Popular_Video_Slots_Play_Login_Required</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>55eb2b56-f608-4a01-9498-a3e422ea42e8</testCaseGuid>
+</TestCaseEntity>

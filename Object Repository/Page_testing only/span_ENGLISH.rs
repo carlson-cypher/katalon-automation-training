@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ENGLISH</name>
+   <tag></tag>
+   <elementGuidId>306c973d-f2d7-459e-bcc1-37d4e4f8e9d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.text-sm.font-bold.text-secondary-15</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Main di Telegram'])[1]/following::span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=banner >> internal:role=button[name=&quot;ENGLISH ENGLISH&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d03bbb46-0544-4ecf-bb8f-23b0ad8235dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-sm font-bold text-secondary-15</value>
+      <webElementGuid>56dc97a7-e124-41e8-b19d-a2f931f8673c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ENGLISH</value>
+      <webElementGuid>d06f133d-7ff1-46df-8107-27f46ab4ef84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[1]/header[@class=&quot;w-full bg-primary-8&quot;]/div[@class=&quot;topbar-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;topbar-left-container px-3&quot;]/div[@class=&quot;topbar-left-section&quot;]/div[@class=&quot;topbar-item language-selector-container&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;absolute left-0 top-full mt-1 min-w-max bg-secondary-7 z-60 rounded-lg overflow-hidden&quot;]/button[@class=&quot;flex cursor-pointer items-center gap-3 w-full px-4 py-2.5 text-left transition-colors border-b border-secondary-6 last:border-b-0 text-secondary-1 hover:bg-secondary-6&quot;]/div[@class=&quot;flex flex-col leading-tight&quot;]/span[@class=&quot;text-sm font-bold text-secondary-15&quot;]</value>
+      <webElementGuid>3fd5d60a-7e26-4f3c-b964-e8412ffbc412</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main di Telegram'])[1]/following::span[2]</value>
+      <webElementGuid>582b32d6-2440-4adf-bc40-97bcdfc38d88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ENGLISH'])[2]/preceding::span[1]</value>
+      <webElementGuid>e80a2ab2-3baa-494a-90ab-2599cb61411c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BHS INDONESIA'])[1]/preceding::span[2]</value>
+      <webElementGuid>cdf4f91f-68cd-4d7e-bc1e-65354c061a9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ENGLISH']/parent::*</value>
+      <webElementGuid>3d338256-c8bb-4fcb-b2a2-ccf7ef66237d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span</value>
+      <webElementGuid>5439e71f-a3ad-4135-8697-2bbe2bf7a90c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'ENGLISH' or . = 'ENGLISH')]</value>
+      <webElementGuid>b0b02457-856d-4b05-84b4-036efb395c6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

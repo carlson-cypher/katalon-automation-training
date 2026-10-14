@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_LOGIN</name>
+   <tag></tag>
+   <elementGuidId>037e2e43-cac6-4304-9296-5f9982a9b591</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.register-button.register-cta.flex.justify-center.items-center.w-full.h-full.text-sm.rounded</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;LOGIN&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dbe9e624-9aa7-4276-964b-7b47593e9e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>register-button register-cta flex justify-center items-center w-full h-full text-sm rounded</value>
+      <webElementGuid>4ca70950-ac55-4585-8c73-34e81bd44291</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LOGIN</value>
+      <webElementGuid>0f228e3e-5e9f-40bc-a77d-e89fcf4fb50c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[@class=&quot;group flex justify-center w-full block&quot;]/div[@class=&quot;z-30 sm:z-30 text-white&quot;]/div[@class=&quot;fixed inset-0 z-30 overflow-y-auto p-4 md:px-2&quot;]/div[@class=&quot;min-h-full flex items-center justify-center&quot;]/div[@class=&quot;relative flex flex-col-reverse md:flex-row justify-center rounded-lg w-full basis-full md:max-w-[967px] md:h-[623px] rounded-lg overflow-hidden -translate-y-[25%] transition-transform duration-300 ease-out group-data-[state=open]:translate-y-0&quot;]/div[@class=&quot;auth-modal-container flex flex-col items-center w-full h-full px-4 md:px-7 pb-8 pt-8 gap-y-4 overflow-auto relative flex-1 max-w-[483px]&quot;]/form[@class=&quot;flex flex-col justify-center items-center w-full max-w-lg gap-y-4 pt-3&quot;]/div[@class=&quot;flex flex-col justify-center items-center w-full gap-y-3.75&quot;]/div[@class=&quot;w-full md:w-82&quot;]/button[@class=&quot;relative text-center text-white justify-center flex w-full border-none text-lg h-10 uppercase cursor-pointer disabled:cursor-not-allowed undefined&quot;]/span[@class=&quot;register-button register-cta flex justify-center items-center w-full h-full text-sm rounded&quot;]</value>
+      <webElementGuid>d6757224-6dbc-4e0c-b3d6-a4e4a24ae43e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/following::span[1]</value>
+      <webElementGuid>7a22fb0e-aeef-4f36-b2d1-a8c6d9934d49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[1]</value>
+      <webElementGuid>896e0303-1b11-46fe-a9b0-f98164db842a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up Now'])[1]/preceding::span[1]</value>
+      <webElementGuid>b05548d2-6252-4277-b327-e8c79ec29dde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login with Google'])[1]/preceding::span[1]</value>
+      <webElementGuid>65e8945a-cf64-4adc-a7ba-bd1ff31d96b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='LOGIN']/parent::*</value>
+      <webElementGuid>fff2c6bb-e1bd-4e17-9ca0-8224a02dc983</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>f107c2f2-92f2-40f1-bf27-6cae68eb2aa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'LOGIN' or . = 'LOGIN')]</value>
+      <webElementGuid>61580cea-4956-4ff3-9268-e59ed5cb2499</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
