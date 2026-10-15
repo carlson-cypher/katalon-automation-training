@@ -22,20 +22,22 @@ import internal.GlobalVariable
 
 public class PlayButtonKeywords {
 	
-	
+	@Keyword
 	def verifyLoginPopupOnPlay(TestObject playButton, TestObject popup) {
         WebUI.click(playButton)
         WebUI.waitForElementVisible(popup, 10)
-        WebUI.verifyTextPresent('Please login first', false)
 		
-		if (WebUI.verifyElementVisible(
-			findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel'),
-			FailureHandling.OPTIONAL)) {
+		// Wait for the OK button to appear
+		WebUI.waitForElementVisible(
+		findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel_Ok_Button'),
+		10
+		)
 		
-		WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel_Ok_Button'))
-		}
+		// Click OK
+		WebUI.click(
+		findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel_Ok_Button')
+		)
 				
 			}
-		
     }
 

@@ -16,23 +16,44 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration
 
-WebUI.openBrowser('')
+
+RunConfiguration.setWebDriverPreferencesProperty('args', ['--disable-notifications'])
+
+//WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
 CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 
-// Valid Login credential
+// Valid Login credential 
 WebUI.callTestCase(
 	findTestCase('Test Cases/TestCases_KaiJun/Common/Reusable_Login_Step'),
-	[('username'): 'wrongusername123', ('password'): 'wrongpassword123'],
+	[('username'): 'ryantest2', ('password'): 'Testing123'],
 	FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+//Close after login homepage pop up
+if (WebUI.verifyElementVisible(
+    findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/After_Login_Homepage_Popup'),
+    FailureHandling.OPTIONAL)) {
 
-// Verify Invalid username or password display
-WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Invalid_Username_Password'))
+WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/After_Login_Homepage_Popup_Ok_button'))
+}
+
+ //Check whether Login button is no longer present
+	WebUI.waitForElementNotPresent(
+	findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Button'),
+	10,
+	FailureHandling.OPTIONAL)
+
+	// Login button is absent — verify successful login indicator
+	WebUI.verifyElementVisible(
+		findTestObject('Object Repository/ObjectRepository_KaiJun/Account/Account_Detail_Bar')
+	)
+	
+	// Logout to prevent affecting other test cases
+	WebUI.click(findTestObject('Object Repository/Logout/Logout_Button'))
 
 // Close browser
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

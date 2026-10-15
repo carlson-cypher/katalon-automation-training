@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
@@ -26,10 +26,16 @@ CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 //Press Footer Platform - Promotion
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Footer/Platform_Promotion'))
 
-WebUI.delay(3)
+// Wait up to 10 seconds for the expected URL
+int attempts = 0
+
+while (WebUI.getUrl() != GlobalVariable.promotionUrl && attempts < 10) {
+    WebUI.delay(1)
+    attempts++
+}
 
 //Verify redirect Url
 WebUI.verifyEqual(WebUI.getUrl(), GlobalVariable.promotionUrl)
 
 // Close browser
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

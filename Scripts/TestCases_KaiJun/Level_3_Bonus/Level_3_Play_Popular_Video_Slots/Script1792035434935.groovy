@@ -17,23 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
 CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 
-// Valid Login credential 
-WebUI.callTestCase(
-	findTestCase('Test Cases/TestCases_KaiJun/Common/Reusable_Login_Step'),
-	[('username'): 'ryantest2', ('password'): 'Testing123'],
-	FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Video_Slots/Popular_Video_Slots_Text'))
 
-// Verify login button hide 
-WebUI.waitForElementNotPresent(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Button'), 10)
-WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Account/Account_Detail_Bar'))
+//click the Play button of a game in Popular Video Slots
+CustomKeywords.'kaijun.PlayButtonKeywords.verifyLoginPopupOnPlay'(
+	findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Video_Slots/Popular_Video_Slots_Play_Button'),
+	findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel'))
 
 // Close browser
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

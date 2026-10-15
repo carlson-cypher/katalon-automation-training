@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='tab-7']/div/div/div/div[2]/a[2]</value>
+         <value>//div[.//*[normalize-space(.)='Popular Video Slots']]//a[contains(normalize-space(.),'PLAY')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>40d103c2-e19f-41cb-9554-2a175f51ca98</webElementGuid>
+      <webElementGuid>2c9d3a8f-b863-4dd5-80cd-aaee3dbb5022</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>play-now</value>
-      <webElementGuid>e8719395-577e-453a-bc8c-9df6894b3f79</webElementGuid>
+      <webElementGuid>23bd884a-b7e5-4999-afb3-ac5ff9cc8ed0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>80f36bda-8db6-458e-82c6-c840e2129842</webElementGuid>
+      <webElementGuid>a74cdbbb-cdb4-431c-958e-faf6da045cb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Play</value>
-      <webElementGuid>838c75fb-25c6-4f87-a861-6c12aaa113f2</webElementGuid>
+      <webElementGuid>9c749a7e-bff8-476e-8ebe-ae873bbcf470</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;tab-7&quot;)/div[@class=&quot;popular-game-list&quot;]/div[@class=&quot;game-item&quot;]/div[@class=&quot;game-wrapper relative&quot;]/div[@class=&quot;link-container&quot;]/a[@class=&quot;play-now&quot;]</value>
-      <webElementGuid>9e1bb79c-cdd0-4ca6-8697-5e424c3c1148</webElementGuid>
+      <webElementGuid>38711db8-146f-4569-a9cc-d54809b54d09</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tab-7']/div/div/div/div[2]/a[2]</value>
-      <webElementGuid>fd44bc86-e442-40d2-8100-9fa8d3d8c40e</webElementGuid>
+      <webElementGuid>ce273f16-a83d-4511-b621-1bb677e0fc9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Play')])[2]</value>
-      <webElementGuid>a8df6679-5ce5-4c79-aa73-444827c86bea</webElementGuid>
+      <webElementGuid>58809645-76e3-4cbf-bc29-0ea849965d15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TRY'])[1]/following::a[1]</value>
-      <webElementGuid>47ae5a32-0955-4cbc-a97f-5a525aba482b</webElementGuid>
+      <webElementGuid>06fce9f0-3af5-472a-8ca3-ea11779b9025</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Deep Sea Frenzy'])[1]/following::a[3]</value>
-      <webElementGuid>074b8836-a8ce-44e2-b577-0d5d8cdff66f</webElementGuid>
+      <webElementGuid>ec512cf0-3550-47bb-b4f0-744ffc169233</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TRY'])[2]/preceding::a[1]</value>
-      <webElementGuid>86727274-094f-4ba3-b952-f87b816edc8e</webElementGuid>
+      <webElementGuid>cdb58ac0-210d-4347-9286-d8e3be0c48ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='TRY'])[3]/preceding::a[3]</value>
-      <webElementGuid>0f31d2a1-df0a-44be-8d4f-666100b92cfb</webElementGuid>
+      <webElementGuid>0b516b51-6265-4361-8741-43c09ab8bd94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[35]</value>
-      <webElementGuid>d1a4c36f-9eab-4295-83d5-757863bf000c</webElementGuid>
+      <webElementGuid>60937c89-a76a-452d-91ae-69e5716786bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[2]/a[2]</value>
-      <webElementGuid>0ab5b603-6d98-42de-b531-047bb7f19b1a</webElementGuid>
+      <webElementGuid>459d75d2-365c-4e2f-af72-696e1a92afbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Play' or . = 'Play')]</value>
-      <webElementGuid>5b5b1b7e-3b8d-4a18-b485-241d71ba2c56</webElementGuid>
+      <webElementGuid>fcb8a5cc-7e94-475e-97e4-f07d607497df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

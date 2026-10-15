@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
@@ -30,11 +30,15 @@ WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Language_O
 
 // Select ID language 
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Language_Options/Button_Bahasa_Indonesia'))
-WebUI.waitForPageLoad(10)
 
-// Verify the page language matches the selected language
-String langId = WebUI.getAttribute(findTestObject('Object Repository/ObjectRepository_KaiJun/BHM_site/html_root'), 'lang')
-WebUI.verifyEqual(langId.startsWith('id'), true)
+TestObject htmlRoot = findTestObject('Object Repository/ObjectRepository_KaiJun/BHM_site/html_root')
+
+WebUI.waitForElementAttributeValue(htmlRoot, 'lang', 'id', 10)
+
+String langId = WebUI.getAttribute(htmlRoot, 'lang')
+
+WebUI.verifyEqual(langId, 'id')
+
 
 //--------------Switch to English Language---------------------
 //Press Language button
@@ -42,11 +46,12 @@ WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Language_O
 
 // Select EN language
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Language_Options/Button_English'))
-WebUI.waitForPageLoad(10)
 
-// Verify the page language matches the selected language
-String langEng = WebUI.getAttribute(findTestObject('Object Repository/ObjectRepository_KaiJun/BHM_site/html_root'), 'lang')
-WebUI.verifyEqual(langEng.startsWith('en'), true)
+WebUI.waitForElementAttributeValue(htmlRoot, 'lang', 'en', 10)
+
+String langEn = WebUI.getAttribute(htmlRoot, 'lang')
+
+WebUI.verifyEqual(langEn, 'en')
 
 // Close browser
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

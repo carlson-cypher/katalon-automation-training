@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'PLAY')]</value>
+         <value>//div[.//*[normalize-space(.)='Popular Games']]//a[contains(normalize-space(.),'PLAY')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8b38f190-6ea8-4b04-932b-44c0ad459022</webElementGuid>
+      <webElementGuid>8341d3f8-cc6e-4943-ab68-7e6590d8cae3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>play-now</value>
-      <webElementGuid>c5ab8db6-413c-42bf-be53-8153520c0b22</webElementGuid>
+      <webElementGuid>3bc4e17c-3a28-4309-8bd1-14560563e9ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>77d428a8-de55-42be-b62a-53be8d345885</webElementGuid>
+      <webElementGuid>11966c20-41ee-4554-bee4-9e23f10f77c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PLAY</value>
-      <webElementGuid>e9e3f599-5526-497e-aa65-d71e7e8fdccf</webElementGuid>
+      <webElementGuid>98b3b059-790e-4c91-ae5b-67b528496369</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[@class=&quot;flex flex-1 overflow-hidden&quot;]/main[@class=&quot;flex-1 overflow-auto bg-background&quot;]/div[@class=&quot;flex flex-col w-full h-auto&quot;]/div[@class=&quot;container&quot;]/section[@class=&quot;mb-3.75&quot;]/div[@class=&quot;border border-primary-4 p-2.5&quot;]/div[1]/div[@class=&quot;grid auto-cols-[calc((100%-30px)/6.5)] gap-x-[6px] gap-y-[10px] grid-flow-col overflow-x-auto native-scrollbar pb-0.75&quot;]/div[@class=&quot;group&quot;]/div[@class=&quot;relative overflow-hidden bg-[#141414] p-1.25&quot;]/div[@class=&quot;link-container absolute inset-0 flex flex-col items-center justify-center opacity-0 transition-opacity duration-200 group-hover:opacity-100&quot;]/a[@class=&quot;play-now&quot;]</value>
-      <webElementGuid>a06946b1-daf0-4f66-bbff-e44a465cfb1b</webElementGuid>
+      <webElementGuid>a999ec57-51cc-48c7-a2d3-b4a12034cc0b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'PLAY')]</value>
-      <webElementGuid>7f895a0d-4389-49c5-82ba-e2197943b795</webElementGuid>
+      <webElementGuid>4815281c-9d0e-4dea-b50e-1dffd6190ede</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Popular Games'])[1]/following::a[1]</value>
-      <webElementGuid>b29bcff3-cf77-421b-8852-ab2a891495c9</webElementGuid>
+      <webElementGuid>4414deb3-345b-4dd4-b78b-84769eeb7e72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Live Draw Sun, 04-Oct-2026 07:00:00'])[1]/following::a[1]</value>
-      <webElementGuid>867ae53d-d7f1-436a-af4c-78cbc8b60b81</webElementGuid>
+      <webElementGuid>892d8e17-e76e-4832-b3a9-d1176fa68c6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MUSCLE FORTUNE CAT'])[1]/preceding::a[1]</value>
-      <webElementGuid>fc625fbd-88f5-4dfe-88a4-efa7d6ee6464</webElementGuid>
+      <webElementGuid>f9f00cb2-26e2-4592-970b-85645066ebbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wukong - Black Scatter'])[1]/preceding::a[2]</value>
-      <webElementGuid>62897f88-3646-4737-8089-577c43f79791</webElementGuid>
+      <webElementGuid>d709a448-bb6f-4a33-add5-bdc4fda2b1d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='PLAY']/parent::*</value>
-      <webElementGuid>17ee4de0-838c-40b0-ad40-1159c8be4122</webElementGuid>
+      <webElementGuid>ff0c5cf8-a945-413a-b882-862db23a3e0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[15]</value>
-      <webElementGuid>854a705e-4c0a-46fc-a3f8-49781b3772b3</webElementGuid>
+      <webElementGuid>0ddc41ac-7c23-4552-8f7a-dd4d2ff5abcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div[3]/a</value>
-      <webElementGuid>57927fbf-cab5-42c0-b18d-efc0bebdeb24</webElementGuid>
+      <webElementGuid>6ce61881-0925-443f-800f-75e4ad6954c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'PLAY' or . = 'PLAY')]</value>
-      <webElementGuid>1746cfb6-4aad-4985-b8ea-4398d93a1815</webElementGuid>
+      <webElementGuid>8b60506c-ef2f-46fc-9845-d6ef8d17f8fe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

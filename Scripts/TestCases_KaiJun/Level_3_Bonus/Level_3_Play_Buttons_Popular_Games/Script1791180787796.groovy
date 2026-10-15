@@ -17,25 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
 CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 
-WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Games/Popular_Games_Text'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Games/Popular_Games_Text'))
 
 //click the Play button of a game in Popular Games
 CustomKeywords.'kaijun.PlayButtonKeywords.verifyLoginPopupOnPlay'(
 	findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Games/Popular_Games_Play_Button'),
 	findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel'))
 
-WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Video_Slots/Popular_Video_Slots_Text'))
-
-//click the Play button of a game in Popular Video Slots
-CustomKeywords.'kaijun.PlayButtonKeywords.verifyLoginPopupOnPlay'(
-	findTestObject('Object Repository/ObjectRepository_KaiJun/Popular_Video_Slots/Popular_Video_Slots_Play_Button'),
-	findTestObject('Object Repository/ObjectRepository_KaiJun/Pop_Up/Please_Login_First_Panel'))
-
 // Close browser
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

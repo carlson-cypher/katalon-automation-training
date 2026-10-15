@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[2]/div[2]/div</value>
+         <value>//div[.//p[text()='Please login first.']]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ba7c1d8d-85e4-4042-abc9-b78a1ecd9809</webElementGuid>
+      <webElementGuid>2f17053c-7efd-445f-ba5c-05eeb8ff21ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>relative w-full max-w-145 h-73 bg-[#0c0c0c] rounded-md pt-9 flex flex-col gap-4 text-btn-primary-from justify-between</value>
-      <webElementGuid>72e8981a-61ab-4b8d-a9cd-2510f6cb1d8a</webElementGuid>
+      <webElementGuid>2fbe943c-95ec-4ad1-be25-86b24dbaf787</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>×Please login first.OK</value>
-      <webElementGuid>96575912-ca3f-47fc-a61c-700042950700</webElementGuid>
+      <webElementGuid>782fa097-e91b-42ed-beed-a8d7e9edda9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[@class=&quot;group flex justify-center w-full block&quot;]/div[@class=&quot;z-[50] sm:z-30 text-white&quot;]/div[@class=&quot;fixed inset-0 z-50 flex items-center justify-center p-4&quot;]/div[@class=&quot;relative w-full max-w-145 h-73 bg-[#0c0c0c] rounded-md pt-9 flex flex-col gap-4 text-btn-primary-from justify-between&quot;]</value>
-      <webElementGuid>c1e29644-db70-4409-8fc1-8ec469994e67</webElementGuid>
+      <webElementGuid>71976dca-83ac-487c-be88-5c507c7dadcb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>6f34e661-6eee-4f51-9965-cc7bd8955634</webElementGuid>
+      <webElementGuid>c18fa8ee-dbe5-49a2-a96f-33916678e3f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +68,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '×Please login first.OK' or . = '×Please login first.OK')]</value>
-      <webElementGuid>90a8cdb1-71ee-4ccc-82a5-9afabdc18cf1</webElementGuid>
+      <webElementGuid>dc9c7b4f-dc05-493a-abc1-b1489731de48</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

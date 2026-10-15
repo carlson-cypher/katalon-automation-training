@@ -6,12 +6,11 @@
    <elementGuidId>0414d334-0ad4-4c54-9624-e0585c2dd62b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@href = '/desktop/sport' and (text() = 'Sports' or . = 'Sports')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Hot Games'])[1]/following::a[1]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bb788d0a-1e77-4e85-bf07-a9af16bc0cd2</webElementGuid>
+      <webElementGuid>cdab27f9-d004-4f34-b531-3ed5b79e407d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>relative flex flex-col items-center gap-1.25 py-5 min-w-18 transition-all group cursor-pointer text-primary-2</value>
-      <webElementGuid>2d1ec792-fa1a-4d0d-b38e-8f0e3457f66e</webElementGuid>
+      <webElementGuid>26e1d793-c1ee-4293-ad14-2d6f6d481a0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/desktop/sport</value>
-      <webElementGuid>663ef5c8-26b6-4e45-ad90-9ecf0d4265ee</webElementGuid>
+      <webElementGuid>7b17bee6-6f93-4471-b866-e4a2f6d167c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sports</value>
-      <webElementGuid>3ff8d03a-5660-4a73-a69d-efa69bfbf1fd</webElementGuid>
+      <webElementGuid>981c86dd-fd50-4d2d-b130-6219e08f4ecf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[1]/nav[@class=&quot;relative w-full site-header bg-primary-6&quot;]/div[@class=&quot;container flex items-start h-full gap-x-6&quot;]/div[@class=&quot;flex-1 flex items-center justify-start relative min-w-0 h-full px-6&quot;]/div[@class=&quot;flex items-start overflow-x-auto scrollbar-hide h-full&quot;]/a[@class=&quot;relative flex flex-col items-center gap-1.25 py-5 min-w-18 transition-all group cursor-pointer text-primary-2&quot;]</value>
-      <webElementGuid>32b09394-8b80-4fca-8482-7ac2cc85d5a3</webElementGuid>
+      <webElementGuid>f547cb5b-3447-4a13-be06-cabffc8ebc0c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hot Games'])[1]/following::a[1]</value>
-      <webElementGuid>8851ffca-e610-4a2f-9b39-df33f04737f3</webElementGuid>
+      <webElementGuid>afde6c74-5300-418d-ad61-5fd97c5a9200</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/following::a[3]</value>
-      <webElementGuid>64e3a100-bdf0-4d79-aa6e-a9e568fb4594</webElementGuid>
+      <webElementGuid>b6b9054b-5636-4c0a-b952-6b4f464c01d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Slots'])[1]/preceding::a[1]</value>
-      <webElementGuid>98bac1a0-3d62-4b99-8779-f73c9ce5960a</webElementGuid>
+      <webElementGuid>8be9face-c92d-4a1e-879f-07daf433a3cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/desktop/sport')]</value>
-      <webElementGuid>61b51440-3a84-46a3-9a6b-8cf41dee1ff1</webElementGuid>
+      <webElementGuid>866bbb44-1850-4d52-b7b2-a8c112551b62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>6cc8e1b6-faf3-49b8-a77a-2aa44e4d54e3</webElementGuid>
+      <webElementGuid>d24d8b56-7317-48a4-9467-b52d9022f63d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/desktop/sport' and (text() = 'Sports' or . = 'Sports')]</value>
-      <webElementGuid>aabb4222-496f-4f80-a77b-1a19e6364a0e</webElementGuid>
+      <webElementGuid>1abf1e9f-4029-457c-a589-1d2ef9adf0a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

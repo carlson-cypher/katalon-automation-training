@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
@@ -29,4 +29,4 @@ CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 WebUI.verifyElementVisible(findTestObject('ObjectRepository_KaiJun/Logo/Web_Logo'))
 
 // Close browser
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

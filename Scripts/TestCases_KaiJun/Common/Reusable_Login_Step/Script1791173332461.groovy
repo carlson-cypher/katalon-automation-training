@@ -23,11 +23,16 @@ import org.openqa.selenium.Keys as Keys
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Button'))
 WebUI.waitForElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form'), 10)
 
-// Fill in the fields
+
+//// Fill in the fields
 WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Username_Field'), username)
 WebUI.setText(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Password_Field'), password)
 
 // Click Login
 WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Button'))
 WebUI.waitForPageLoad(10)
+
+
+
+
 

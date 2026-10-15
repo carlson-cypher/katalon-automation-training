@@ -17,19 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.homeUrl)
 
 CustomKeywords.'kaijun.PopupKeywords.closeHomepagePopup'()
 
-//Press Login button visible
-WebUI.click(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Button'))
 
-WebUI.delay(2)
-
-//Verify Login form is it visible 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form'))
+// Call Reusable Login test case
+WebUI.callTestCase(
+	findTestCase('Test Cases/TestCases_KaiJun/Common/Reusable_Login_Step'),
+	[('username'): '', ('password'): ''],
+	FailureHandling.STOP_ON_FAILURE)
 
 // Verify Login form's username field
 WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Username_Field'))
@@ -38,4 +37,4 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_Ka
 WebUI.verifyElementVisible(findTestObject('Object Repository/ObjectRepository_KaiJun/Login/Login_Form_Password_Field'))
 
 // Close browser
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
