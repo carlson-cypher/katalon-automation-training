@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test on URL changing when clicking on Sport Category</description>
+   <name>TC002_HeaderNavigation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4e92f1d0-23b2-4069-b859-aeac39e2d68d</testCaseGuid>
+</TestCaseEntity>

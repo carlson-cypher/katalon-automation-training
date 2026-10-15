@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test if Login Alert Popup will show when clicking on Play button</description>
+   <name>TC_009_PlayNowButton</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b03f0e29-c21a-4022-9a45-0762779c3e93</testCaseGuid>
+</TestCaseEntity>

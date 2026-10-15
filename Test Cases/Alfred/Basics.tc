@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test for Home Page loads, Header Navigation, and Login Modal</description>
+   <name>Basics</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a09dc58-3941-4e83-92b3-b0eab72cb50b</testCaseGuid>
+</TestCaseEntity>
