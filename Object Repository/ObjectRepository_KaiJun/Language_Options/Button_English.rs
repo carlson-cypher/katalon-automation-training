@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_English</name>
+   <tag></tag>
+   <elementGuidId>6680b7a9-cac6-4a9c-97a4-d442eb000dcc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(text() = 'ENGLISHENGLISH' or . = 'ENGLISHENGLISH')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;ENGLISH ENGLISH&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dad8038c-cb67-45f4-92d4-a66f88e8ab97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex cursor-pointer items-center gap-3 w-full px-4 py-2.5 text-left transition-colors border-b border-secondary-6 last:border-b-0 text-secondary-1 hover:bg-secondary-6</value>
+      <webElementGuid>2402e2ab-1c69-4440-8933-b21aaa9f3925</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ENGLISHENGLISH</value>
+      <webElementGuid>e8eb6fa5-6136-43e4-988e-f0bcacec9f47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[1]/header[@class=&quot;w-full bg-primary-8&quot;]/div[@class=&quot;topbar-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;topbar-left-container px-3&quot;]/div[@class=&quot;topbar-left-section&quot;]/div[@class=&quot;topbar-item language-selector-container&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;absolute left-0 top-full mt-1 min-w-max bg-secondary-7 z-60 rounded-lg overflow-hidden&quot;]/button[@class=&quot;flex cursor-pointer items-center gap-3 w-full px-4 py-2.5 text-left transition-colors border-b border-secondary-6 last:border-b-0 text-secondary-1 hover:bg-secondary-6&quot;]</value>
+      <webElementGuid>75705d5c-d975-4a7b-8d59-f06d9088d3f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main di Telegram'])[1]/following::button[3]</value>
+      <webElementGuid>9ccab021-02f9-4ac9-9b55-e9eb609b43ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/button</value>
+      <webElementGuid>cfc05f28-5caf-4d9f-ae7e-1343a6a0ad47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'ENGLISHENGLISH' or . = 'ENGLISHENGLISH')]</value>
+      <webElementGuid>a559fa64-aac4-4fe2-9238-6e157f30a184</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

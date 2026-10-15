@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Homepage_Popup_Ok_button</name>
+   <tag></tag>
+   <elementGuidId>2a145c91-a57a-46e6-8783-28d94568eeb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text() = 'OK' or . = 'OK')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;OK&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>133784a5-14e8-44aa-87ea-604e27aced0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cursor-pointer w-25 m-1 px-3 py-1.5 text-center text-sm rounded-md bg-linear-to-b from-btn-primary-from to-btn-primary-to hover:from-btn-primary-to hover:to-btn-primary-from text-primary-5</value>
+      <webElementGuid>656b5778-4427-458a-8b47-faf57e3a550d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OK</value>
+      <webElementGuid>2bed454a-1cdb-48a2-bfeb-d9f3029ffe2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;group flex justify-center w-full block&quot;]/div[@class=&quot;z-30 sm:z-30 text-white&quot;]/div[@class=&quot;fixed inset-0 bg-black/50 z-50 overflow-y-auto px-4&quot;]/div[@class=&quot;bg-secondary-10 flex flex-col rounded-xl w-[92vw] md:w-145 mx-auto mt-8 mb-0&quot;]/div[@class=&quot;flex justify-center border-t border-secondary-6 p-3&quot;]/div[@class=&quot;cursor-pointer w-25 m-1 px-3 py-1.5 text-center text-sm rounded-md bg-linear-to-b from-btn-primary-from to-btn-primary-to hover:from-btn-primary-to hover:to-btn-primary-from text-primary-5&quot;]</value>
+      <webElementGuid>5a12e507-af8b-46c1-81aa-b74c9d37bb52</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-Sports'])[4]/following::div[15]</value>
+      <webElementGuid>478232ff-a8c7-4c84-a28e-35d16a7e8a74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cockfight'])[4]/following::div[20]</value>
+      <webElementGuid>7150c288-3f43-40e5-817e-f4cec6015b7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
+      <webElementGuid>2029f356-8c9f-47ff-acdd-65a7a875f5bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div[3]/div</value>
+      <webElementGuid>241dabb4-1525-4965-8179-8e939c04b1c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>7ba6b143-db58-4555-bcf3-bad26c4516b1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Please_Login_First_Panel_Ok_Button</name>
+   <tag></tag>
+   <elementGuidId>c3d25b18-f4e9-4bbd-9f58-6163058c7eab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[(text() = 'OK' or . = 'OK')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;OK&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>44f1070d-bfc2-460d-93a3-056e5f5a6f3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-register text-black w-25 px-5 py-1.5 rounded-[5px] text-sm uppercase tracking-wide transition-colors cursor-pointer</value>
+      <webElementGuid>dee44d86-b501-4923-b1f8-56f6747847f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OK</value>
+      <webElementGuid>02898fdc-3eea-490b-b487-fb3bd57ad4ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[@class=&quot;group flex justify-center w-full block&quot;]/div[@class=&quot;z-[50] sm:z-30 text-white&quot;]/div[@class=&quot;fixed inset-0 z-50 flex items-center justify-center p-4&quot;]/div[@class=&quot;relative w-full max-w-145 h-73 bg-[#0c0c0c] rounded-md pt-9 flex flex-col gap-4 text-btn-primary-from justify-between&quot;]/div[@class=&quot;px-5 pt-5 pb-5 border-t border-[#2b2b2b] flex items-center justify-center&quot;]/button[@class=&quot;btn-register text-black w-25 px-5 py-1.5 rounded-[5px] text-sm uppercase tracking-wide transition-colors cursor-pointer&quot;]</value>
+      <webElementGuid>a110fdbe-4328-4843-ba4a-f71b761b27b0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[1]</value>
+      <webElementGuid>73b2a9aa-e08d-4d5e-8d0f-cd7a7541b4bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::button[2]</value>
+      <webElementGuid>dde9445b-a110-4d1a-b1fa-dd7a376fc602</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Play on Telegram'])[1]/preceding::button[1]</value>
+      <webElementGuid>23434b3c-772d-4b9b-8cd4-5f75a113a8b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::button[3]</value>
+      <webElementGuid>7fe7282a-95d6-4bc7-b9b1-f0679109c64b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
+      <webElementGuid>78afbc65-9465-4706-88c7-c259c9d0c32f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>60c0300a-125f-4f04-98a6-7ff2432a3f82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>f57e2e3b-724a-4686-b1c5-7f578f6aa55e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

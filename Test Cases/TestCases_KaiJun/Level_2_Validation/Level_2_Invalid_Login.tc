@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Level_2_Invalid_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>405368b7-96d8-41c5-84b7-2f3571e2866c</testCaseGuid>
+</TestCaseEntity>
