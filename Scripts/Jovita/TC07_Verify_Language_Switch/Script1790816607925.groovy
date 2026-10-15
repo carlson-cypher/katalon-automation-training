@@ -9,43 +9,49 @@ CustomKeywords.'jovita.CommonKeyword.goToHomePage'()
 String ErrMessage = ''
 boolean IsFailed = false
 
+TestObject loginButton = findTestObject('Object Repository/Jovita/Login_Button')
 TestObject languageDropdown = findTestObject('Object Repository/Jovita/Header_Language_Dropdown')
-TestObject optionIndonesian = findTestObject('Object Repository/Jovita/Header_Language_Option_Indonesian')
-TestObject optionEnglish = findTestObject('Object Repository/Jovita/Header_Language_Option_English')
 // The header Login button label is translated: "Login" (English) / "Masuk" (Indonesian)
-TestObject loginTextEnglish = findTestObject('Object Repository/Jovita/Login_Button_Text_English')
-TestObject loginTextIndonesian = findTestObject('Object Repository/Jovita/Login_Button_Text_Indonesian')
+Map<String, Map<String, TestObject>> languages = [
+	('English')    : [option : findTestObject('Object Repository/Jovita/Header_Language_Option_English'),
+	                  label  : findTestObject('Object Repository/Jovita/Login_Button_Text_English')],
+	('Indonesian') : [option : findTestObject('Object Repository/Jovita/Header_Language_Option_Indonesian'),
+	                  label  : findTestObject('Object Repository/Jovita/Login_Button_Text_Indonesian')]
+]
 
-'Precondition: page starts in English, otherwise the switch cannot be proven'
-if (!WebUI.waitForElementVisible(loginTextEnglish, 10, FailureHandling.OPTIONAL)) {
-	ErrMessage += 'Precondition failed: page did not start in English (Login button "Login" not found).\n'
+'Detect the starting language from the Login button label (the site can start in either language)'
+if (!WebUI.waitForElementVisible(loginButton, 10, FailureHandling.OPTIONAL)) {
+	KeywordUtil.markFailedAndStop('Login button is not visible, cannot detect the page language.')
+}
+String startLanguage = WebUI.verifyElementPresent(languages.English.label, 1, FailureHandling.OPTIONAL) ? 'English' :
+	(WebUI.verifyElementPresent(languages.Indonesian.label, 1, FailureHandling.OPTIONAL) ? 'Indonesian' : null)
+if (startLanguage == null) {
+	KeywordUtil.markFailedAndStop('Could not detect the page language: Login button shows neither "Login" nor "Masuk".')
+}
+String otherLanguage = (startLanguage == 'English') ? 'Indonesian' : 'English'
+KeywordUtil.logInfo('Page started in ' + startLanguage + '; switching to ' + otherLanguage + ' and back.')
+
+def switchTo = { String language ->
+	WebUI.click(languageDropdown, FailureHandling.STOP_ON_FAILURE)
+	WebUI.waitForElementClickable(languages[language].option, 5, FailureHandling.OPTIONAL)
+	WebUI.click(languages[language].option, FailureHandling.STOP_ON_FAILURE)
+	return WebUI.waitForElementVisible(languages[language].label, 10, FailureHandling.OPTIONAL)
+}
+
+'Switch to the other language and verify the Login button label changed'
+if (!switchTo(otherLanguage)) {
+	ErrMessage += 'Failed to verify page language switched to ' + otherLanguage + '.\n'
 	IsFailed = true
-} else {
-	'Switch to Indonesian'
-	WebUI.click(languageDropdown, FailureHandling.STOP_ON_FAILURE)
-	WebUI.waitForElementClickable(optionIndonesian, 5, FailureHandling.OPTIONAL)
-	WebUI.click(optionIndonesian, FailureHandling.STOP_ON_FAILURE)
+}
 
-	'Verify the page language changed: Login button now reads "Masuk"'
-	if (!WebUI.waitForElementVisible(loginTextIndonesian, 10, FailureHandling.OPTIONAL)) {
-		ErrMessage += 'Failed to verify page language switched to Indonesian (Login button "Masuk" was not found).\n'
-		IsFailed = true
-	}
-
-	'Switch back to English (also leaves the shared browser in English for the next test cases)'
-	WebUI.click(languageDropdown, FailureHandling.STOP_ON_FAILURE)
-	WebUI.waitForElementClickable(optionEnglish, 5, FailureHandling.OPTIONAL)
-	WebUI.click(optionEnglish, FailureHandling.STOP_ON_FAILURE)
-
-	'Verify the page language changed back: Login button reads "Login" again'
-	if (!WebUI.waitForElementVisible(loginTextEnglish, 10, FailureHandling.OPTIONAL)) {
-		ErrMessage += 'Failed to verify page language switched back to English (Login button "Login" was not found).\n'
-		IsFailed = true
-	}
+'Switch back to the starting language and verify (also leaves the shared browser as it started)'
+if (!switchTo(startLanguage)) {
+	ErrMessage += 'Failed to verify page language switched back to ' + startLanguage + '.\n'
+	IsFailed = true
 }
 
 if (IsFailed || ErrMessage != '') {
 	KeywordUtil.markFailed(ErrMessage)
 } else {
-	KeywordUtil.logInfo('Success: Language switched to Indonesian and back to English successfully.')
+	KeywordUtil.logInfo('Success: Language switched from ' + startLanguage + ' to ' + otherLanguage + ' and back.')
 }

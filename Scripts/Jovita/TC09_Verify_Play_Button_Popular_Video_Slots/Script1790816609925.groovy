@@ -7,4 +7,4 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 CustomKeywords.'jovita.CommonKeyword.goToHomePage'()
 
 'Call reusable Custom Keyword for Popular Video Slots Play Button check'
-CustomKeywords.'jovita.GameKeyword.verifyLoginPopupOnPlayGame'(findTestObject('Object Repository/Jovita/Game_Popular_Video_Slots_Play_Button'))
+CustomKeywords.'jovita.GameKeyword.verifyLoginPopupOnPlayGame'(findTestObject('Object Repository/Jovita/Game_Popular_Video_Slots_Play_Button', [('sectionTitle') : 'Popular Video Slots']))
