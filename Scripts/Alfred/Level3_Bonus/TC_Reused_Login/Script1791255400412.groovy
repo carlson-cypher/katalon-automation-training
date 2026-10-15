@@ -18,13 +18,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-WebUI.maximizeWindow()
-WebUI.navigateToUrl('https://behemoth-w1n.nomlaterla.com/')
-WebUI.waitForPageLoad(10)
-WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Popup_OK_Button'))
-WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Login_Button'))
-WebUI.waitForElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Field'), 10)
+//WebUI.openBrowser('')
+//WebUI.maximizeWindow()
+//WebUI.navigateToUrl('https://behemoth-w1n.nomlaterla.com/')
+//WebUI.waitForPageLoad(10)
+//WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Popup_OK_Button'))
+//WebUI.click(findTestObject('Object Repository/Alfred/Page_testing only/Login_Button'))
+//WebUI.waitForElementVisible(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Field'), 10)
 
 WebUI.setText(findTestObject('Object Repository/Alfred/Page_testing only/Login_Username_Field'), username)
 WebUI.setText(findTestObject('Object Repository/Alfred/Page_testing only/Login_Password_Field'), password)
