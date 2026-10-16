@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Submit</name>
+   <tag></tag>
+   <elementGuidId>c76a4d04-1157-41bb-81af-8a01df1760ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.register-button.register-cta.text-primary-5.flex.justify-center.items-center.w-full.h-full.text-sm.rounded</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;LOGIN&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5f0b9eb2-6539-48eb-b43c-16225001dcc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>register-button register-cta text-primary-5 flex justify-center items-center w-full h-full text-sm rounded</value>
+      <webElementGuid>89b1f6be-cd11-4d95-95e7-9e2b414cdf4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LOGIN</value>
+      <webElementGuid>adc7406e-84d4-403f-94a3-8383309befb8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/div[@class=&quot;group flex justify-center w-full block&quot;]/div[@class=&quot;z-30 sm:z-30 text-white&quot;]/div[@class=&quot;fixed inset-0 z-30 overflow-y-auto p-4 md:px-2&quot;]/div[@class=&quot;min-h-full flex items-center justify-center&quot;]/div[@class=&quot;relative flex flex-col-reverse md:flex-row justify-center rounded-lg w-full basis-full md:max-w-[967px] md:h-[623px] rounded-lg overflow-hidden -translate-y-[25%] transition-transform duration-300 ease-out group-data-[state=open]:translate-y-0&quot;]/div[@class=&quot;auth-modal-container flex flex-col items-center w-full h-full px-4 md:px-7 pb-8 pt-8 gap-y-4 overflow-auto relative flex-1&quot;]/form[@class=&quot;flex flex-col justify-center items-center w-full max-w-lg gap-y-4 pt-3&quot;]/div[@class=&quot;flex flex-col justify-center items-center w-full gap-y-3.75&quot;]/div[@class=&quot;w-full md:w-82&quot;]/button[@class=&quot;relative text-center text-white justify-center flex w-full border-none text-lg h-10 uppercase cursor-pointer disabled:cursor-not-allowed undefined&quot;]/span[@class=&quot;register-button register-cta text-primary-5 flex justify-center items-center w-full h-full text-sm rounded&quot;]</value>
+      <webElementGuid>fc710fe4-33f7-4a40-b121-705bb33331a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password?'])[1]/following::span[1]</value>
+      <webElementGuid>9a63f393-52d9-4ac9-8251-b0ef857ca16d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[1]</value>
+      <webElementGuid>78bc093c-f2be-4610-9af3-51e332eae764</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up Now'])[1]/preceding::span[1]</value>
+      <webElementGuid>36bac493-28eb-459a-9ab7-0bab46ea5124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login with Google'])[1]/preceding::span[1]</value>
+      <webElementGuid>a80f2a06-a5ce-4d15-ba3d-00772b97420e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='LOGIN']/parent::*</value>
+      <webElementGuid>06181655-163c-4c59-8b35-65ddd9721946</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>3b91f58d-6d1f-48d0-ae2d-588bb50849c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'LOGIN' or . = 'LOGIN')]</value>
+      <webElementGuid>5a792498-66b2-4800-a1ae-881b799c9251</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

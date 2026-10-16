@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Home_Sport_Url</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c36d5a0f-8ee7-44cc-801a-09b8bc5f053d</testCaseGuid>
+</TestCaseEntity>
