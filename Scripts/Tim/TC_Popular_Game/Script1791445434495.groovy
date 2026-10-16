@@ -5,7 +5,6 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.core.llm.keyword.LlmKeywords as LLM
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -17,14 +16,12 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import org.openqa.selenium.Keys as Keys
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-WebUI.maximizeWindow()
-WebUI.navigateToUrl('https://behemoth-w1n.nomlaterla.com/')
-WebUI.click(findTestObject('Tim/Home/btn_Close_Home_Popup'))
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 CustomKeywords.'tim.katalon.verifyLoginPopupOnPlay'(
     findTestObject('Tim/Home/btn_Play_Popular_Game'),
-    findTestObject('Tim/Home/popup_Please_Login_First'))
+    findTestObject('Tim/Home/popup_Please_Login_First'),
+    'Please login first')
 
-WebUI.closeBrowser()
+
 

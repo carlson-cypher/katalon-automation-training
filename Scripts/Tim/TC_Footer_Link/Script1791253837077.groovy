@@ -5,7 +5,6 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.llm.keyword.LlmKeywords as LLM
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
@@ -19,11 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory   // add this at the top with the other imports
 
-WebUI.openBrowser('https://behemoth-w1n.nomlaterla.com/')
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Tim/Home/btn_Close_Home_Popup'))
 
 WebUI.scrollToElement(findTestObject('Tim/Home/footer_Slots'), 10)
 

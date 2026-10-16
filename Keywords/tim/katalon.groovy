@@ -10,48 +10,51 @@ import org.openqa.selenium.WebElement
 import org.openqa.selenium.interactions.Actions
 import java.time.Duration
 
-public class katalon {
+public class Gamekeywords {
 
     /**
      * While logged out: hover a game card, click its Play button,
      * then verify the "Please login first" popup appears.
      */
-    @Keyword
- def verifyLoginPopupOnPlay(TestObject playButton, TestObject loginPopup) {
-        WebUI.waitForElementPresent(playButton, 15)
-        WebElement btn = WebUI.findWebElement(playButton, 10)
+ @Keyword
+def verifyLoginPopupOnPlay(TestObject playButton, TestObject loginPopup, String expectedText) {
+    WebUI.waitForElementPresent(playButton, 15)
+    WebElement btn = WebUI.findWebElement(playButton, 10)
 
-        // Find the hover parent (Tailwind "group"); fall back to two levels up
-        WebElement card = (WebElement) WebUI.executeJavaScript(
-            "return arguments[0].closest('.group') || arguments[0].parentElement.parentElement;",
-            Arrays.asList(btn))
-        KeywordUtil.logInfo('Hover target class: ' + card.getAttribute('class'))
+    // Find the hover parent (Tailwind "group"); fall back to two levels up
+    WebElement card = (WebElement) WebUI.executeJavaScript(
+        "return arguments[0].closest('.group') || arguments[0].parentElement.parentElement;",
+        Arrays.asList(btn))
+    KeywordUtil.logInfo('Hover target class: ' + card.getAttribute('class'))
 
-        // Scroll the card into view BEFORE hovering (works for sliders/carousels)
-        WebUI.executeJavaScript(
-            "arguments[0].scrollIntoView({block: 'center', inline: 'center'});",
-            Arrays.asList(card))
-        WebUI.delay(1)
+    // Scroll the card into view BEFORE hovering (works for sliders/carousels)
+    WebUI.executeJavaScript(
+        "arguments[0].scrollIntoView({block: 'center', inline: 'center'});",
+        Arrays.asList(card))
+    WebUI.delay(1)
 
-        // Real mouse hover; retry until the Play button is visible
-        WebDriver driver = DriverFactory.getWebDriver()
-        boolean shown = false
-        for (int i = 0; i < 3 && !shown; i++) {
-            new Actions(driver).moveToElement(card).pause(Duration.ofMillis(500)).perform()
-            shown = WebUI.waitForElementVisible(playButton, 3, FailureHandling.OPTIONAL)
-        }
-        if (!shown) {
-            KeywordUtil.logInfo('Play button not visible after hover, falling back to JS click')
-        }
-
-        // Normal click if possible, otherwise JavaScript click
-        try {
-            WebUI.click(playButton)
-        } catch (Exception e) {
-            WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(btn))
-        }
-
-        WebUI.waitForElementVisible(loginPopup, 10, FailureHandling.STOP_ON_FAILURE)
-        WebUI.verifyElementVisible(loginPopup, FailureHandling.STOP_ON_FAILURE)
+    // Real mouse hover; retry until the Play button is visible
+    WebDriver driver = DriverFactory.getWebDriver()
+    boolean shown = false
+    for (int i = 0; i < 3 && !shown; i++) {
+        new Actions(driver).moveToElement(card).pause(Duration.ofMillis(500)).perform()
+        shown = WebUI.waitForElementVisible(playButton, 3, FailureHandling.OPTIONAL)
     }
+
+    // A real user couldn't click a hidden button, so fail instead of forcing it
+    if (!shown) {
+        KeywordUtil.markFailed('Play button did not become visible after hovering the card')
+    }
+
+    // Real click only
+    WebUI.click(playButton)
+
+    // Popup must appear AND show the right message
+    WebUI.waitForElementVisible(loginPopup, 10, FailureHandling.STOP_ON_FAILURE)
+    String actualText = WebUI.getText(loginPopup).replaceAll('\\s+', ' ').trim()
+    if (!actualText.contains(expectedText)) {
+        KeywordUtil.markFailed("Popup text mismatch. Expected to contain: '${expectedText}' but was: '${actualText}'")
+    }
+    KeywordUtil.markPassed("Login popup shown with text: '${actualText}'")
+}
 }

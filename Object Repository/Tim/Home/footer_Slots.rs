@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Slots')]</value>
+         <value>//footer//a[normalize-space()='Slots']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>85114a64-2de4-4109-a66c-04cd6872d5c9</webElementGuid>
+      <webElementGuid>f070f765-8165-4e7a-94bf-2e120e73d36a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-secondary-18 hover:text-primary-1 text-xs md:text-sm font-medium transition-colors cursor-pointer</value>
-      <webElementGuid>f03e5503-3252-41a0-9a18-8e1947cad63a</webElementGuid>
+      <webElementGuid>69828e09-e351-4423-b0d4-f2a5c5da59c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/desktop/slots</value>
-      <webElementGuid>2317dce6-8057-4872-b37f-59deaf8701da</webElementGuid>
+      <webElementGuid>af133f8e-083b-4abe-8f85-582835001d85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Slots</value>
-      <webElementGuid>4537771c-38c0-4b25-b980-c11c56da576c</webElementGuid>
+      <webElementGuid>e0150b11-05c8-4620-bf9b-2749cc2d641f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;theme-nexus-alpha-dark-gold&quot;]/body[1]/div[@class=&quot;min-h-screen flex flex-col bg-background text-foreground&quot;]/footer[@class=&quot;bg-secondary-9 text-secondary-4 md:border-t-2 border-primary-7 py-5 text-sm leading-5.25&quot;]/div[@class=&quot;container mt-[15px]&quot;]/div[@class=&quot;border-y border-dotted border-secondary-5 py-3.75 md:border-t&quot;]/div[@class=&quot;grid grid-cols-2 gap-6.5 md:flex md:flex-row md:justify-between md:pr-10&quot;]/div[3]/ul[@class=&quot;space-y-2.5 pt-2.5 leading-5&quot;]/li[3]/a[@class=&quot;text-secondary-18 hover:text-primary-1 text-xs md:text-sm font-medium transition-colors cursor-pointer&quot;]</value>
-      <webElementGuid>52ba4d60-552c-4213-9261-c40b24f72e30</webElementGuid>
+      <webElementGuid>4e8f3a51-8387-4cd0-af2d-cc81674c3047</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Slots')]</value>
-      <webElementGuid>88473184-ab44-4261-aeaa-b38e748b5af2</webElementGuid>
+      <webElementGuid>8689cf76-e59a-40d6-b208-81b15634468f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sports'])[3]/following::a[1]</value>
-      <webElementGuid>33a1ef62-1160-4c46-af61-2c6865b3a399</webElementGuid>
+      <webElementGuid>69a854be-fe2c-42ba-8d65-1de1d767d969</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hot Games'])[3]/following::a[2]</value>
-      <webElementGuid>cd5f1408-68df-4afd-b194-3fa90eb510bd</webElementGuid>
+      <webElementGuid>1c31803d-2547-4726-98f2-a32ee34d3f6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Live Casino'])[3]/preceding::a[1]</value>
-      <webElementGuid>f61fd131-264b-4798-8b55-a86ae0868ccf</webElementGuid>
+      <webElementGuid>05cb75f4-893b-427a-9c90-a164fa5b30bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Race'])[3]/preceding::a[2]</value>
-      <webElementGuid>d4b13fd2-41cb-48eb-9e74-da0098063cdd</webElementGuid>
+      <webElementGuid>80ccbe97-5393-4656-8b80-d406bdcd5a10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/desktop/slots')])[3]</value>
-      <webElementGuid>f9a62658-c1df-41ea-8fc8-06445cb7a55c</webElementGuid>
+      <webElementGuid>2ac14752-5b2b-40d8-b830-6276a07bcfe4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/ul/li[3]/a</value>
-      <webElementGuid>efb6e51b-917f-48b8-bef0-7c48b74d6821</webElementGuid>
+      <webElementGuid>f187a677-0e07-4596-a152-5b7c0cd0c98b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +124,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/desktop/slots' and (text() = 'Slots' or . = 'Slots')]</value>
-      <webElementGuid>db741b5c-fd9a-44a4-8262-f46138acfa95</webElementGuid>
+      <webElementGuid>c16fe7ba-59ab-4451-b030-e86ab789ea23</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

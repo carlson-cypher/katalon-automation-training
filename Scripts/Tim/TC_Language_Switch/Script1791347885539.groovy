@@ -5,7 +5,6 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.llm.keyword.LlmKeywords as LLM
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
@@ -18,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://behemoth-w1n.nomlaterla.com/')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://behemoth-w1n.nomlaterla.com/')
-
-WebUI.click(findTestObject('Tim/Home/btn_Close_Home_Popup'))
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 // Switch back to English
 WebUI.click(findTestObject('Tim/Home/button_Switch_Language'))
@@ -44,5 +37,4 @@ WebUI.click(findTestObject('Tim/Home/button_Eng'))
 // Verify it's English again
 WebUI.verifyElementText(findTestObject('Tim/Login/btn_Login'), 'LOGIN')
 
-WebUI.closeBrowser()
 
